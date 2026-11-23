@@ -2,7 +2,7 @@
 
 ## 1. Create a free account
 
-Go to <https://app.devici.com/sign-up?utm_source=github&utm_campaign=tm_library> and follow the prompts.
+Go to [app.devici.com/sign-up](https://app.devici.com/sign-up?utm_source=github&utm_campaign=tm_library) and follow the prompts.
 
 ## 2. Get the model file
 

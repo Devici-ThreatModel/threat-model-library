@@ -12,7 +12,7 @@ Each reference model has full written documentation (components, threats, mitiga
 
 ## Start in 5 minutes
 
-1. **Sign up free:** <https://app.devici.com/sign-up?utm_source=github&utm_campaign=tm_library>
+1. **Sign up free:** [app.devici.com/sign-up](https://app.devici.com/sign-up?utm_source=github&utm_campaign=tm_library)
 2. **Pick a model** from the [catalog](#the-catalog) and download its `.otm.json` file.
 3. **Import it:** in Devici, create a new threat model by importing an OTM file and select the file you downloaded. The diagram, threats, and mitigations appear on a canvas you own.
 4. **Make it yours:** rename components to match your architecture, remove what doesn't apply, and add what's missing.
