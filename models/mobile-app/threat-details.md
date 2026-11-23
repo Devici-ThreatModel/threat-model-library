@@ -6,7 +6,7 @@ For each threat: how the attack works, what it affects, and which mitigations co
 
 ### Broken Authentication
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Spoofing
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Spoofing
 
 **Affects:** Application Logic, Local Authentication
 
@@ -23,7 +23,7 @@ Attackers could target authentication mechanisms, potentially gaining complete c
 
 ### Credential Theft
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Spoofing
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** Local Authentication
 
@@ -38,7 +38,7 @@ An attacker steals or guesses a password using a Brute-force attack, phishing, o
 
 ### Information Disclosure
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** User Interface, Application Logic
 
@@ -53,7 +53,7 @@ Information disclosure is the unintentional exposure or release of confidential 
 
 ### Insecure Data Storage
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** Application Logic
 
@@ -67,7 +67,7 @@ Sensitive data (like personal information, credentials, or financial data) store
 
 ### M1: Improper Credential Usage
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Information Disclosure
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Information Disclosure
 
 **Affects:** Application Logic
 
@@ -82,7 +82,7 @@ Hardcoded credentials, insecure storage or handling of user credentials or API k
 
 ### M3: Insecure Authentication / Authorization
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Spoofing
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** Application Logic
 
@@ -97,7 +97,7 @@ Flaws in login flows, token handling, session management, role enforcement, or e
 
 ### M9: Insecure Data Storage
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Information Disclosure
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Information Disclosure
 
 **Affects:** Shared Storage, Application Storage
 
@@ -111,7 +111,7 @@ Storing sensitive data unencrypted (or weakly encrypted) locally (e.g. in files,
 
 ### Weak Server-Side Controls
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Elevation of Privilege
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Elevation of Privilege
 
 **Affects:** Application Logic
 
@@ -125,7 +125,7 @@ Storing sensitive data unencrypted (or weakly encrypted) locally (e.g. in files,
 
 ### App Tampering or Fake Distribution Channels
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
 
 **Affects:** App Store Client
 
@@ -140,7 +140,7 @@ Attackers distribute trojanized or counterfeit versions of your app outside the 
 
 ### Broken access control
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Elevation of Privilege
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Elevation of Privilege
 
 **Affects:** Application Logic
 
@@ -158,7 +158,7 @@ An attacker could exploit broken access control to access unauthorized functiona
 
 ### Credential Leakage
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** Local Authentication, Credential Storage
 
@@ -172,7 +172,7 @@ Secrets such as API keys, tokens, or credentials could be accidentally exposed i
 
 ### Cryptographic failure
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** Application Logic
 
@@ -189,7 +189,7 @@ An attacker could exploit cryptographic failures to access sensitive data unprot
 
 ### Elevation of Privilege
 
-**Risk:** High · **Likelihood:** Low · **Severity:** High · **Framework:** Elevation of Privilege
+**Priority:** High · **Likelihood:** Low · **Severity:** High · **Framework:** Elevation of Privilege
 
 **Affects:** Application Logic
 
@@ -204,7 +204,7 @@ Elevation of privilege is when an attacker gains unauthorized access to higher-l
 
 ### Identification and Authentication Failures
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** Local Authentication
 
@@ -220,7 +220,7 @@ An attacker could exploit identification and authentication failures to imperson
 
 ### Improper authentication
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** Local Authentication
 
@@ -234,7 +234,7 @@ When an actor claims to have a given identity, the product does not prove or ins
 
 ### Injection flaws
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
 
 **Affects:** Application Logic
 
@@ -254,7 +254,7 @@ An attacker could use injection flaws (like SQL, NoSQL, and OS command injection
 
 ### Insecure Inter-Process Communication (IPC)
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** User Interface, Application Logic
 
@@ -269,7 +269,7 @@ Insecure communication between apps or components can be intercepted or manipula
 
 ### Insufficient Transport Layer Protection
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** Application Logic
 
@@ -283,7 +283,7 @@ Data transmitted between the mobile app and server can be intercepted if not pro
 
 ### Lateral Movement
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Elevation of Privilege
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Elevation of Privilege
 
 **Affects:** Local Authentication
 
@@ -299,7 +299,7 @@ Expanding control over the target network beyond the initial point of compromise
 
 ### M10: Insufficient Cryptography
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** Application Logic
 
@@ -314,7 +314,7 @@ Use of weak or custom encryption algorithms, improper key management, or misuse 
 
 ### M2: Inadequate Supply Chain Security
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Tampering
 
 **Affects:** Application Logic
 
@@ -329,7 +329,7 @@ Vulnerabilities introduced via third-party libraries, SDKs, build tools, and the
 
 ### M6: Inadequate Privacy Controls
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** Information Disclosure
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** Information Disclosure
 
 **Affects:** Application Storage
 
@@ -343,7 +343,7 @@ Poor protection of sensitive user data (personal profile, PII), improper permiss
 
 ### M8: Security Misconfiguration
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
 
 **Affects:** Mobile App Sandbox
 
@@ -357,7 +357,7 @@ Misconfigured app settings, permissions, network policies, or development/debug 
 
 ### Malicious Code and Malware
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
 
 **Affects:** Application Logic
 
@@ -371,7 +371,7 @@ Mobile devices can be infected with malware that can compromise apps, steal data
 
 ### Missing authentication
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** Application Logic
 
@@ -384,7 +384,7 @@ Mobile devices can be infected with malware that can compromise apps, steal data
 
 ### Spoofing
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** User Interface, Application Logic
 
@@ -398,7 +398,7 @@ Mobile devices can be infected with malware that can compromise apps, steal data
 
 ### Tampering
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
 
 **Affects:** User Interface, Application Logic
 
@@ -411,7 +411,7 @@ Mobile devices can be infected with malware that can compromise apps, steal data
 
 ### Vulnerable and Outdated Components
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
 
 **Affects:** User Interface, Application Logic
 
@@ -425,7 +425,7 @@ Mobile devices can be infected with malware that can compromise apps, steal data
 
 ### Client-Side Injection
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** Tampering
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** Tampering
 
 **Affects:** User Interface, Application Logic
 
@@ -440,7 +440,7 @@ Attackers exploit vulnerabilities by injecting malicious code (e.g., JavaScript,
 
 ### Denial of Service
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** Medium · **Framework:** Denial of Service
+**Priority:** Medium · **Likelihood:** Low · **Severity:** Medium · **Framework:** Denial of Service
 
 **Affects:** User Interface, Application Logic
 
@@ -454,7 +454,7 @@ Denial of service (DoS) is an attack that disrupts the normal functioning of a s
 
 ### Insecure Communication with Third-Party Services
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** Tampering
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** Tampering
 
 **Affects:** Application Logic
 
@@ -469,7 +469,7 @@ Mobile apps often interact with third-party APIs or services, which may be insec
 
 ### Least Privilege Principle Violation
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Elevation of Privilege
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Elevation of Privilege
 
 **Affects:** User Interface, Application Logic
 
@@ -483,7 +483,7 @@ An attacker breaches the deny-by-default policy, leading to potential exploitati
 
 ### M4: Insufficient Input / Output Validation
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Tampering
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Tampering
 
 **Affects:** Application Logic
 
@@ -498,7 +498,7 @@ Failure to properly validate, sanitize, or encode data coming into or going out 
 
 ### M7: Insufficient Binary Protections
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Tampering
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Tampering
 
 **Affects:** Mobile App Sandbox
 
@@ -513,7 +513,7 @@ Lack of defenses against reverse engineering, tampering, or debugging (e.g. no c
 
 ### Reverse Engineering
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Tampering
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Tampering
 
 **Affects:** Application Logic
 
@@ -526,7 +526,7 @@ Lack of defenses against reverse engineering, tampering, or debugging (e.g. no c
 
 ### Security Misconfiguration (Web and Mobile)
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Tampering
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Tampering
 
 **Affects:** User Interface, Application Logic
 
@@ -540,7 +540,7 @@ Lack of defenses against reverse engineering, tampering, or debugging (e.g. no c
 
 ### Session Hijacking
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** Spoofing
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** User Interface, Application Logic
 
@@ -554,7 +554,7 @@ Lack of defenses against reverse engineering, tampering, or debugging (e.g. no c
 
 ### Side-channel data leakage
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Information Disclosure
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Information Disclosure
 
 **Affects:** User Interface, Application Logic
 
@@ -566,7 +566,7 @@ Lack of defenses against reverse engineering, tampering, or debugging (e.g. no c
 
 ### Insecure Handling of App Store Purchase Tokens
 
-**Risk:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** Tampering
+**Priority:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** Tampering
 
 **Affects:** Application Logic
 
@@ -581,7 +581,7 @@ Storing App Store tokens, transaction IDs, or purchase receipts insecurely (e.g.
 
 ### Misuse of StoreKit or App Store APIs
 
-**Risk:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** Tampering
+**Priority:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** Tampering
 
 **Affects:** Application Logic
 
@@ -594,7 +594,7 @@ Storing App Store tokens, transaction IDs, or purchase receipts insecurely (e.g.
 
 ### Receipt Forgery and Validation Attacks
 
-**Risk:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** Tampering
+**Priority:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** Tampering
 
 **Affects:** Application Logic
 
@@ -607,7 +607,7 @@ Storing App Store tokens, transaction IDs, or purchase receipts insecurely (e.g.
 
 ### Repudiation
 
-**Risk:** Low · **Likelihood:** Low · **Severity:** Medium · **Framework:** Repudiation
+**Priority:** Low · **Likelihood:** Low · **Severity:** Medium · **Framework:** Repudiation
 
 **Affects:** Application Logic
 

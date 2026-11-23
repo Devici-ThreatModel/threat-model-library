@@ -1,10 +1,10 @@
 # Automotive: Threats
 
-37 curated threats, grouped by theme and ordered by risk. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
+37 curated threats, grouped by theme and ordered by priority. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
 
-## Risk summary
+## Priority summary
 
-| Risk level | Threats |
+| Priority level | Threats |
 |---|---|
 | Critical | 8 |
 | High | 20 |
@@ -13,7 +13,7 @@
 
 ## Vehicle Control & Safety Critical (CAN Bus & ECUs)
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Braking & Safety ECU Command Suppression / Safety System Disablement](threat-details.md#braking--safety-ecu-command-suppression--safety-system-disablement) | STRIDE: Denial of Service | Low | Critical | **Critical** | Prevent brakes or airbags from deploying during an emergency. |
 | [ECU impersonation / spoofing](threat-details.md#ecu-impersonation--spoofing) | STRIDE: Spoofing | Medium | Critical | **Critical** | A compromised non-critical ECU (e.g., Radio) pretends to be the Safety ECU to send fake commands. |
@@ -32,7 +32,7 @@
 
 ## Connectivity & Infotainment (Entry Points)
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Bluetooth exploitation](threat-details.md#bluetooth-exploitation) | STRIDE: Elevation of Privilege | High | Medium | **High** | Remote code execution or pairing without consent to access contacts or unlock the car. |
 | [Compromised mobile app integrations (Android Auto / CarPlay)](threat-details.md#compromised-mobile-app-integrations-android-auto--carplay) | STRIDE: Spoofing | High | Medium | **High** | Use a compromised phone to send malicious input to the head unit. |
@@ -45,7 +45,7 @@
 
 ## Software Lifecycle, Backend & Privacy
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Broken Authentication](threat-details.md#broken-authentication) | OWASP: Identification Failures | High | High | **Critical** | Weak passwords allowing attackers to log into the vehicle mobile app/account. |
 | [Exploiting legacy or unsupported firmware](threat-details.md#exploiting-legacy-or-unsupported-firmware) | OWASP: Vulnerable Components | High | High | **Critical** | Attacking known vulnerabilities in old libraries (e.g., old Linux kernel in Infotainment). |

@@ -8,7 +8,7 @@ This model shows how a smart air system collects sensor data, analyzes it in the
 
 - [`iot-device.otm.json`](iot-device.otm.json): importable model (OTM 0.2.0). See [Importing into Devici](../../docs/importing-into-devici.md).
 - [Components and data flow](components.md): every element, its role, and its attributes
-- [Threats](threats.md): curated threats by theme, with likelihood, severity, and risk
+- [Threats](threats.md): curated threats by theme, with likelihood, severity, and priority
 - [Threat details](threat-details.md): how each attack works and which mitigations counter it
 - [Mitigation library](mitigation-library.md): every mitigation with implementation guidance, rationale, and examples
 - [Review notes](review-notes.md): what the model covers, and where it falls short
@@ -24,7 +24,7 @@ This model shows how a smart air system collects sensor data, analyzes it in the
 
 The documentation covers the curated set we scored and prioritized. The importable model also includes every additional threat mapped to its components.
 
-| Risk level | Threats |
+| Priority level | Threats |
 |---|---|
 | Critical | 10 |
 | High | 24 |

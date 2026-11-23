@@ -31,7 +31,7 @@ Each reference model has full written documentation (components, threats, mitiga
 ## Best-practice guides
 
 - [**Evaluating a threat model**](docs/evaluating-a-threat-model.md): accuracy and completeness checks, and how to find gaps
-- [**Organizing threats and mitigations**](docs/organizing-threats-and-mitigations.md): grouping, framework mapping, and risk scoring
+- [**Organizing threats and mitigations**](docs/organizing-threats-and-mitigations.md): grouping, framework mapping, and priority scoring
 - [**Importing into Devici**](docs/importing-into-devici.md): detailed steps and troubleshooting
 
 ## Repository layout
@@ -39,9 +39,9 @@ Each reference model has full written documentation (components, threats, mitiga
 ```
 models/<industry>/
   <name>.otm.json        # importable model (OTM 0.2.0)
-  README.md              # overview, risk summary, scope, assumptions
+  README.md              # overview, priority summary, scope, assumptions
   components.md          # every component and data flow
-  threats.md             # curated threats by theme, with risk ratings
+  threats.md             # curated threats by theme, with priority levels
   threat-details.md      # how each attack works, and its mitigations
   mitigation-library.md  # each mitigation with guidance and examples
   review-notes.md        # coverage gaps and refinements (where available)

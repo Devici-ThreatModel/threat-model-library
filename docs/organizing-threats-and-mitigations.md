@@ -24,11 +24,11 @@ Themes make it possible to assign ownership (the cloud team owns one group, the 
 | Attacker goal / impact | What the attacker gains and what it costs you |
 | Likelihood | Low, Medium, High |
 | Severity | Low, Medium, High, Critical |
-| Risk level | Combined result, used for prioritization |
+| Priority level | Combined result (Low, Medium, High, Critical), used for prioritization |
 
-## Score risk consistently
+## Set priority consistently
 
-Likelihood and severity combine into a risk level. In the reference models, severity drives the outcome: a High-likelihood, Critical-severity threat is Critical, and a Low-likelihood, Critical-severity safety threat still lands at High. Pick a rule, write it down, and apply it everywhere. Consistency matters more than the exact matrix.
+Likelihood and severity combine into a priority level. In the reference models, severity drives the outcome: a High-likelihood, Critical-severity threat is Critical, and a Low-likelihood, Critical-severity safety threat still lands at High. Pick a rule, write it down, and apply it everywhere. Consistency matters more than the exact matrix.
 
 Work from the top: Critical and High threats first, and confirm each has mitigations before polishing Medium and Low ones.
 

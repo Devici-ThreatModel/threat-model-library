@@ -1,10 +1,10 @@
 # Medical Device: Threats
 
-64 curated threats, grouped by theme and ordered by risk. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
+64 curated threats, grouped by theme and ordered by priority. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
 
-## Risk summary
+## Priority summary
 
-| Risk level | Threats |
+| Priority level | Threats |
 |---|---|
 | Critical | 12 |
 | High | 33 |
@@ -14,7 +14,7 @@
 
 ## Patient Safety & Device Integrity (Medical Specific)
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Denial-of-therapy or over-therapy due to cyber event](threat-details.md#denial-of-therapy-or-over-therapy-due-to-cyber-event) | Devici Custom Methodology | Medium | Critical | **Critical** | Patient Safety: Stop or overdose therapy (e.g., insulin/pacing). |
 | [Improper Memory Buffer Restriction](threat-details.md#improper-memory-buffer-restriction) | CWE | Low | Critical | **High** | Exploit: Buffer overflow leading to code execution. |
@@ -27,7 +27,7 @@
 
 ## Mobile Security
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Insecure Data Storage](threat-details.md#insecure-data-storage) | MAESTRO | High | High | **Critical** | Data Theft: Read PHI from unencrypted local files. |
 | [M1: Improper Credential Usage](threat-details.md#m1-improper-credential-usage) | MAESTRO | High | High | **Critical** | Account Takeover: Hardcoded/weak tokens in app code. |
@@ -45,7 +45,7 @@
 
 ## Backend & API Security (OWASP API & Web)
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Broken Object Level Authorization](threat-details.md#broken-object-level-authorization) | OWASP API Security Top 10 | High | High | **Critical** | Data Breach: Access other patients' records (BOLA/IDOR). |
 | [Security Misconfiguration (API)](threat-details.md#security-misconfiguration-api) | OWASP API Security Top 10 | High | High | **Critical** | Access: Unpatched flaws or open cloud buckets. |
@@ -60,7 +60,7 @@
 
 ## Privacy & Compliance (LINDDUN & Regulatory)
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Data Disclosure](threat-details.md#data-disclosure) | LINDDUN | High | High | **Critical** | Privacy Breach: Exposing PII/PHI unnecessarily. |
 | [Non-Compliance](threat-details.md#non-compliance) | LINDDUN | High | High | **Critical** | Legal: Violating HIPAA/GDPR/MDR requirements. |
@@ -72,7 +72,7 @@
 
 ## General Cybersecurity
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Broken access control](threat-details.md#broken-access-control) | OWASP Top Ten | High | High | **Critical** | Access: Unauthorized viewing/modifying data. |
 | [Credential Leakage](threat-details.md#credential-leakage) | CWE | High | High | **Critical** | Access: Keys/Secrets found in GitHub/Logs. |
@@ -100,7 +100,7 @@
 
 ## Additional threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Physical theft or loss of portable devices (PHI exposure)](threat-details.md#physical-theft-or-loss-of-portable-devices-phi-exposure) |  | n/a | n/a | **Unrated** |  |
 | [Time synchronization manipulation (affecting logs, alarms, safety timing)](threat-details.md#time-synchronization-manipulation-affecting-logs-alarms-safety-timing) |  | n/a | n/a | **Unrated** |  |

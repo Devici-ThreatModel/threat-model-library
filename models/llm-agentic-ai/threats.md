@@ -1,10 +1,10 @@
 # LLM and Agentic Systems: Threats
 
-90 curated threats, grouped by theme and ordered by risk. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
+90 curated threats, grouped by theme and ordered by priority. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
 
-## Risk summary
+## Priority summary
 
-| Risk level | Threats |
+| Priority level | Threats |
 |---|---|
 | Critical | 15 |
 | High | 41 |
@@ -14,7 +14,7 @@
 
 ## LLM-Specific & Prompt Injection Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Direct prompt injection](threat-details.md#direct-prompt-injection) | OWASP LLM01 | High | Critical | **Critical** | Jailbreak the model to bypass safety guardrails and generate toxic or illegal content. |
 | [Excessive functionality](threat-details.md#excessive-functionality) | OWASP LLM08 | High | High | **Critical** | Agent has access to plugins/tools it doesn't need, expanding the blast radius of a compromise. |
@@ -31,7 +31,7 @@
 
 ## Agent & Goal Manipulation Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Agent Impersonation](threat-details.md#agent-impersonation) | STRIDE (Spoofing) | High | High | **Critical** | A malicious actor poses as a legitimate agent to deceive users or other agents. |
 | [Agent Tool Misuse](threat-details.md#agent-tool-misuse) | OWASP LLM01 | High | Critical | **Critical** | Manipulate an agent to use its connected tools (e.g., email, code exec) harmfully. |
@@ -45,7 +45,7 @@
 
 ## Data Integrity & Poisoning Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Compromised RAG Pipelines](threat-details.md#compromised-rag-pipelines) | STRIDE (Tampering) | Medium | Critical | **High** | Inject malicious code/data into the RAG workflow, causing erroneous or harmful agent behavior. |
 | [Data Poisoning - AI Agent](threat-details.md#data-poisoning---ai-agent) | STRIDE (Tampering) | Medium | High | **High** | Manipulate operational data to bias agent decisions in real-time. |
@@ -59,7 +59,7 @@
 
 ## Privacy, Extraction & Tenant Isolation Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Data Exfiltration](threat-details.md#data-exfiltration) | LINDDUN (Disclosure) | Medium | Critical | **Critical** | Steal sensitive AI training data or user logs from databases. |
 | [Data Leakage](threat-details.md#data-leakage) | LINDDUN (Disclosure) | High | High | **Critical** | Sensitive data from one layer exposed through another. |
@@ -76,7 +76,7 @@
 
 ## Supply Chain & Infrastructure Integrity Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Input Validation Attacks](threat-details.md#input-validation-attacks) | STRIDE (Tampering) | High | High | **Critical** | Inject malicious code via weak input handling in the AI framework. |
 | [Supply Chain Attacks](threat-details.md#supply-chain-attacks) | OWASP LLM05 | Medium | Critical | **Critical** | Compromise dependencies (libraries, models) before they are deployed. |
@@ -98,7 +98,7 @@
 
 ## API Security & Access Control Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Broken Authentication](threat-details.md#broken-authentication) | OWASP API02 | High | Critical | **Critical** | Hijack user/agent accounts to access data or perform actions on their behalf. |
 | [Broken Object Level Authorization](threat-details.md#broken-object-level-authorization) | OWASP API01 | High | Critical | **Critical** | Manipulate IDs to access data belonging to other users (BOLA). |
@@ -114,7 +114,7 @@
 
 ## Denial of Service (DoS) Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Denial of Service via Query Flooding](threat-details.md#denial-of-service-via-query-flooding) | STRIDE (DoS) | Medium | High | **High** | Flood the Vector DB with high-dimensional queries to crash the search index. |
 | [LLM Denial of Service](threat-details.md#llm-denial-of-service) | OWASP LLM04 | High | Medium | **Medium** | Flood the generation queue to degrade service for legitimate users. |
@@ -122,7 +122,7 @@
 
 ## Additional threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Broken Object Property Level Authorization](threat-details.md#broken-object-property-level-authorization) |  | n/a | n/a | **Unrated** |  |
 | [Cache Poisoning (semantic or vector cache)](threat-details.md#cache-poisoning-semantic-or-vector-cache) |  | n/a | n/a | **Unrated** |  |

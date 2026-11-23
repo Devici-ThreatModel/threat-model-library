@@ -1,10 +1,10 @@
 # Mobile App: Threats
 
-42 curated threats, grouped by theme and ordered by risk. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
+42 curated threats, grouped by theme and ordered by priority. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
 
-## Risk summary
+## Priority summary
 
-| Risk level | Threats |
+| Priority level | Threats |
 |---|---|
 | Critical | 8 |
 | High | 20 |
@@ -13,7 +13,7 @@
 
 ## All threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Broken Authentication](threat-details.md#broken-authentication) | Spoofing | High | Critical | **Critical** | Account Takeover (ATO); impersonate legitimate users. |
 | [Credential Theft](threat-details.md#credential-theft) | Spoofing | High | High | **Critical** | Gain valid user credentials via Phishing/Brute-force. |

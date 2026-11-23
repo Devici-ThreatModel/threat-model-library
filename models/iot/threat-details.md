@@ -6,7 +6,7 @@ For each threat: how the attack works, what it affects, and which mitigations co
 
 ### Broken Authentication
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** OWASP: Identification Failures
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** OWASP: Identification Failures
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -23,7 +23,7 @@ Attackers could target authentication mechanisms, potentially gaining complete c
 
 ### Broken Object Level Authorization
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** OWASP API: Broken Object Level Auth
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** OWASP API: Broken Object Level Auth
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -41,7 +41,7 @@ An attacker could exploit API endpoints with broken object-level authorization b
 
 ### Weak, Guessable, or Hardcoded Passwords
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** OWASP: Identification Failures
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** OWASP: Identification Failures
 
 **Affects:** Command Module
 
@@ -57,7 +57,7 @@ Many IoT devices ship with default or hardcoded credentials that attackers can e
 
 ### Account-linking abuse
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** OWASP API: Broken Authentication
+**Priority:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** OWASP API: Broken Authentication
 
 **Affects:** Integration APIs
 
@@ -72,7 +72,7 @@ Compromised Amazon credentials grant HVAC control.
 
 ### Broken Function Level Authorization
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API: Broken Function Level Auth
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API: Broken Function Level Auth
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -88,7 +88,7 @@ An attacker could send legitimate API calls to endpoints they should not have ac
 
 ### Broken Object Property Level Authorization
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API: Broken Object Property Level Auth
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API: Broken Object Property Level Auth
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -104,7 +104,7 @@ An attacker could access private/sensitive object properties, potentially leadin
 
 ### Bypass Access Control
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP: Broken Access Control
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP: Broken Access Control
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -120,7 +120,7 @@ As an attacker, I aim to bypass access control checks by modifying the URL via p
 
 ### Improper Inventory Management
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP API: Improper Inventory
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP API: Improper Inventory
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -136,7 +136,7 @@ Attackers could gain unauthorized access through old API versions, unpatched end
 
 ### Insecure skill-API integration
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API: Unsafe Consumption
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API: Unsafe Consumption
 
 **Affects:** Integration APIs
 
@@ -151,7 +151,7 @@ Weak OAuth or token handling between Alexa and cloud.
 
 ### Missing authentication
 
-**Risk:** High · **Likelihood:** Low · **Severity:** High · **Framework:** OWASP: Broken Access Control
+**Priority:** High · **Likelihood:** Low · **Severity:** High · **Framework:** OWASP: Broken Access Control
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -166,7 +166,7 @@ The product does not perform any authentication for functionality that requires 
 
 ### Security Misconfiguration (API)
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP: Security Misconfig
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP: Security Misconfig
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -182,7 +182,7 @@ Attackers might exploit unpatched flaws, services with insecure default configur
 
 ### Server Side Request Forgery (SSRF)
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** OWASP: SSRF
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** OWASP: SSRF
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -202,7 +202,7 @@ Attackers could exploit SSRF vulnerabilities in APIs to cause internal services 
 
 ### Unsafe Consumption of APIs
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API: Unsafe Consumption
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API: Unsafe Consumption
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -218,7 +218,7 @@ Attackers might identify and compromise other APIs/services integrated with the 
 
 ### Unrestricted Access to Sensitive Business Flows
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Low · **Framework:** OWASP API: Unrestricted Access
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Low · **Framework:** OWASP API: Unrestricted Access
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator
 
@@ -236,7 +236,7 @@ Attackers could exploit sensitive business flows in APIs, causing harm such as p
 
 ### End-of-life devices
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Vulnerable Components
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Vulnerable Components
 
 **Affects:** Air Quality & Comfort Device
 
@@ -251,7 +251,7 @@ Unsupported units remain on the network unpatched.
 
 ### Insecure boot chain
 
-**Risk:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** Air Quality & Comfort Device
 
@@ -266,7 +266,7 @@ Lack of secure boot permits modified firmware to load on startup.
 
 ### Insecure provisioning keys
 
-**Risk:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** OWASP: Cryptographic Failures
+**Priority:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** OWASP: Cryptographic Failures
 
 **Affects:** Air Quality & Comfort Device
 
@@ -280,7 +280,7 @@ Shared credentials used during device onboarding.
 
 ### Lack of Secure Update Mechanism
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** Command Module
 
@@ -295,7 +295,7 @@ Devices that lack cryptographic update validation or fail to receive timely patc
 
 ### Use of Insecure or Outdated Components
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Vulnerable Components
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Vulnerable Components
 
 **Affects:** Command Module
 
@@ -311,7 +311,7 @@ IoT products frequently include legacy operating systems, outdated libraries, or
 
 ### Compromised manufacturing firmware
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** Air Quality & Comfort Device
 
@@ -326,7 +326,7 @@ Malicious code injected before shipment.
 
 ### Hidden debug interfaces (UART/JTAG)
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Elevation of Privilege
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Elevation of Privilege
 
 **Affects:** Air Quality & Comfort Device
 
@@ -341,7 +341,7 @@ Accessible maintenance ports could enable local tampering or firmware extraction
 
 ### Insecure firmware updates
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** OWASP: Cryptographic Failures
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** OWASP: Cryptographic Failures
 
 **Affects:** Air Quality & Comfort Device
 
@@ -356,7 +356,7 @@ Unsigned or unauthenticated updates allow injection of malicious code or rollbac
 
 ### Lack of Device Management
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP: Security Misconfig
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP: Security Misconfig
 
 **Affects:** Command Module
 
@@ -371,7 +371,7 @@ Failure to provide secure provisioning, decommissioning, or update mechanisms ma
 
 ### Counterfeit components
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE: Tampering
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE: Tampering
 
 **Affects:** Air Quality & Comfort Device
 
@@ -386,7 +386,7 @@ Non-genuine Wi-Fi or sensor modules with backdoors.
 
 ### Side-channel or physical tampering
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE: Tampering
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE: Tampering
 
 **Affects:** Air Quality & Comfort Device
 
@@ -403,7 +403,7 @@ Attackers with access to the thermostat can probe or replace hardware components
 
 ### Elevation of Privilege
 
-**Risk:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Elevation of Privilege
+**Priority:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Elevation of Privilege
 
 **Affects:** Command Module, Amazon S3, Integration APIs, Universal Data aggregator
 
@@ -418,7 +418,7 @@ Elevation of privilege is when an attacker gains unauthorized access to higher-l
 
 ### Insecure Data Storage
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Cryptographic Failures
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Cryptographic Failures
 
 **Affects:** Local data store
 
@@ -432,7 +432,7 @@ Sensitive data (like personal information, credentials, or financial data) store
 
 ### Denial of Service
 
-**Risk:** High · **Likelihood:** High · **Severity:** High · **Framework:** STRIDE: Denial of Service
+**Priority:** High · **Likelihood:** High · **Severity:** High · **Framework:** STRIDE: Denial of Service
 
 **Affects:** Command Module, Amazon S3, Integration APIs, Universal Data aggregator, Local data store
 
@@ -446,7 +446,7 @@ Denial of service (DoS) is an attack that disrupts the normal functioning of a s
 
 ### Information Disclosure
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE: Information Disclosure
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE: Information Disclosure
 
 **Affects:** Command Module, Amazon S3, Integration APIs, Universal Data aggregator, Local data store
 
@@ -461,7 +461,7 @@ Information disclosure is the unintentional exposure or release of confidential 
 
 ### Least Privilege Principle Violation
 
-**Risk:** High · **Likelihood:** High · **Severity:** High · **Framework:** STRIDE: Elevation of Privilege
+**Priority:** High · **Likelihood:** High · **Severity:** High · **Framework:** STRIDE: Elevation of Privilege
 
 **Affects:** Command Module
 
@@ -475,7 +475,7 @@ An attacker breaches the deny-by-default policy, leading to potential exploitati
 
 ### Logic flaws in control algorithms
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** Command Module
 
@@ -490,7 +490,7 @@ Faults in heating/cooling or purification logic could alter temperature or air-q
 
 ### Power or battery sabotage
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Denial of Service
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Denial of Service
 
 **Affects:** Air Quality & Comfort Device
 
@@ -505,7 +505,7 @@ Frequent relay cycling shortens hardware life or causes HVAC compressor failure.
 
 ### Privacy leakage
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** LINDDUN: Identifiability
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** LINDDUN: Identifiability
 
 **Affects:** Integration APIs
 
@@ -520,7 +520,7 @@ Sensitive environmental or occupancy data exposed through Alexa history.
 
 ### Spoofing
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Spoofing
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Spoofing
 
 **Affects:** Command Module, Amazon S3, Integration APIs, Universal Data aggregator
 
@@ -536,7 +536,7 @@ Spoofing is where an attacker masquerades as a trusted entity to gain unauthoriz
 
 ### Tampering
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Tampering
 
 **Affects:** Command Module, Amazon S3, Integration APIs, Universal Data aggregator, Local data store
 
@@ -551,7 +551,7 @@ Tampering with data involves unauthorized changes to digital information, often 
 
 ### Thermal or air-quality manipulation
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** Command Module
 
@@ -566,7 +566,7 @@ Attack changes temperature or disables purification, affecting occupant health o
 
 ### Unvalidated sensor data (MEMS sensors)
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Tampering
 
 **Affects:** Command Module
 
@@ -581,7 +581,7 @@ Malicious or spoofed readings influence automated control loops (false overheat 
 
 ### Logging Failure
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP: Logging Failures
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP: Logging Failures
 
 **Affects:** Local data store
 
@@ -597,7 +597,7 @@ An attacker can attack the App Server, and because it does not log at the correc
 
 ### Sensor desync or time manipulation
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** STRIDE: Tampering
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** STRIDE: Tampering
 
 **Affects:** Command Module
 
@@ -612,7 +612,7 @@ False readings cause over-heating, over-cooling, or ozone over-generation.
 
 ### Unrestricted Resource Consumption
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Low · **Framework:** STRIDE: Denial of Service
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Low · **Framework:** STRIDE: Denial of Service
 
 **Affects:** Command Module, Integration APIs, Universal Data aggregator, Local data store, Amazon Sagemaker (Analytics)
 
@@ -629,7 +629,7 @@ Attackers could exploit unrestricted resource consumption, leading to DoS due to
 
 ### Repudiation
 
-**Risk:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** STRIDE: Repudiation
+**Priority:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** STRIDE: Repudiation
 
 **Affects:** Command Module, Amazon S3, Integration APIs, Universal Data aggregator, Local data store
 

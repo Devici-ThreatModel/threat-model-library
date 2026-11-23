@@ -8,7 +8,7 @@ This model shows how medical data moves between devices, patient apps, cloud ser
 
 - [`medical-device.otm.json`](medical-device.otm.json): importable model (OTM 0.2.0). See [Importing into Devici](../../docs/importing-into-devici.md).
 - [Components and data flow](components.md): every element, its role, and its attributes
-- [Threats](threats.md): curated threats by theme, with likelihood, severity, and risk
+- [Threats](threats.md): curated threats by theme, with likelihood, severity, and priority
 - [Threat details](threat-details.md): how each attack works and which mitigations counter it
 - [Mitigation library](mitigation-library.md): every mitigation with implementation guidance, rationale, and examples
 - [Review notes](review-notes.md): what the model covers, and where it falls short
@@ -21,7 +21,7 @@ This model shows how medical data moves between devices, patient apps, cloud ser
 | Distinct mitigations | 116 |
 | Threat-to-mitigation mappings | 179 |
 
-| Risk level | Threats |
+| Priority level | Threats |
 |---|---|
 | Critical | 12 |
 | High | 33 |

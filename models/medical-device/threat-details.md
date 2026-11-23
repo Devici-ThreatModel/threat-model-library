@@ -6,7 +6,7 @@ For each threat: how the attack works, what it affects, and which mitigations co
 
 ### Denial-of-therapy or over-therapy due to cyber event
 
-**Risk:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** Devici Custom Methodology
+**Priority:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** Devici Custom Methodology
 
 **Affects:** Health Controller
 
@@ -21,7 +21,7 @@ A cyberattack or system failure causes the medical device to stop, delay, or exc
 
 ### Improper Memory Buffer Restriction
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** CWE
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** CWE
 
 **Affects:** Operating System
 
@@ -39,7 +39,7 @@ The product performs operations on a memory buffer, but an attacker can read fro
 
 ### Insecure boot
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** CWE
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** CWE
 
 **Affects:** Operating System
 
@@ -54,7 +54,7 @@ Without a secure boot chain (root of trust → authenticated bootloader → sign
 
 ### Insecure firmware update mechanism
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** CWE
+**Priority:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** CWE
 
 **Affects:** Operating System
 
@@ -69,7 +69,7 @@ The device accepts firmware updates without properly verifying authenticity, int
 
 ### Logic flaws in control software that could alter therapy or diagnosis
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** Devici Custom Methodology
+**Priority:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** Devici Custom Methodology
 
 **Affects:** Medical App
 
@@ -84,7 +84,7 @@ Defects or design errors in the device’s control logic can cause incorrect ope
 
 ### Tampering with calibration data or safety thresholds
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Devici Custom Methodology
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Devici Custom Methodology
 
 **Affects:** Health Controller
 
@@ -99,7 +99,7 @@ An attacker or unauthorized user modifies the device’s calibration constants, 
 
 ### Hidden debug or maintenance interfaces
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** CWE
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** CWE
 
 **Affects:** Operating System
 
@@ -114,7 +114,7 @@ The device includes hardware or software service interfaces (e.g., UART, JTAG, U
 
 ### Tampering or firmware extraction
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** CWE
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** CWE
 
 **Affects:** Operating System
 
@@ -131,7 +131,7 @@ An attacker with physical, local, or privileged logical access extracts or tampe
 
 ### Insecure Data Storage
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** MAESTRO
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** MAESTRO
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -145,7 +145,7 @@ Sensitive data (like personal information, credentials, or financial data) store
 
 ### M1: Improper Credential Usage
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** MAESTRO
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** MAESTRO
 
 **Affects:** Medical App
 
@@ -160,7 +160,7 @@ Apps store or handle credentials insecurely (e.g., plaintext storage, hardcoded 
 
 ### Malicious Code and Malware
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** MAESTRO
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** MAESTRO
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -174,7 +174,7 @@ Mobile devices can be infected with malware that can compromise apps, steal data
 
 ### App Proxy Attack
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
 
 **Affects:** Other Apps
 
@@ -189,7 +189,7 @@ Attacker uses an on phone app to proxy attacks against the medical app.
 
 ### Client-Side Injection
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** MAESTRO
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** MAESTRO
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -204,7 +204,7 @@ Attackers exploit vulnerabilities by injecting malicious code (e.g., JavaScript,
 
 ### Insecure Communication with Third-Party Services
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -219,7 +219,7 @@ Mobile apps often interact with third-party APIs or services, which may be insec
 
 ### Insecure Inter-Process Communication (IPC)
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** MAESTRO
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** MAESTRO
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -234,7 +234,7 @@ Insecure communication between apps or components can be intercepted or manipula
 
 ### M2: Inadequate Supply Chain Security
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** MAESTRO
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** MAESTRO
 
 **Affects:** Medical App
 
@@ -252,7 +252,7 @@ Third-party SDKs, libraries, or build pipelines are compromised or unverified. M
 
 ### M6: Inadequate Privacy Controls
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
 
 **Affects:** Medical App
 
@@ -267,7 +267,7 @@ Apps over-collect, mishandle, or expose personal and health data. Unauthorized a
 
 ### Trojaned or attacker controlled app
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** MAESTRO
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** MAESTRO
 
 **Affects:** Updated Medical App
 
@@ -282,7 +282,7 @@ Attacker violates the app store or update channel, loading an attacker controlle
 
 ### M7: Insufficient Binary Protections
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
 
 **Affects:** Medical App
 
@@ -297,7 +297,7 @@ Lack of code obfuscation, anti-debugging, or integrity checks allows reverse eng
 
 ### Reverse Engineering
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** MAESTRO
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -312,7 +312,7 @@ Attackers decompile or reverse-engineer the mobile app to understand its functio
 
 ### Side-channel data leakage
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** MAESTRO
+**Priority:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** MAESTRO
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -328,7 +328,7 @@ Sensitive data can be inadvertently exposed through logs, screenshots, or backgr
 
 ### Broken Object Level Authorization
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP API Security Top 10
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP API Security Top 10
 
 **Affects:** Patient Facing Services, Clinician Services
 
@@ -346,7 +346,7 @@ An attacker could exploit API endpoints with broken object-level authorization b
 
 ### Security Misconfiguration (API)
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP API Security Top 10
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP API Security Top 10
 
 **Affects:** Patient Facing Services, Clinician Services
 
@@ -362,7 +362,7 @@ Attackers might exploit unpatched flaws, services with insecure default configur
 
 ### Broken Authentication
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API Security Top 10
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API Security Top 10
 
 **Affects:** Other Apps, Patient Facing Services, Updated Medical App, Medical App, Clinician Services, Gateway
 
@@ -379,7 +379,7 @@ Attackers could target authentication mechanisms, potentially gaining complete c
 
 ### Broken Function Level Authorization
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API Security Top 10
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API Security Top 10
 
 **Affects:** Patient Facing Services, Clinician Services
 
@@ -395,7 +395,7 @@ An attacker could send legitimate API calls to endpoints they should not have ac
 
 ### Unsafe Consumption of APIs
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API Security Top 10
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP API Security Top 10
 
 **Affects:** Patient Facing Services, Clinician Services
 
@@ -411,7 +411,7 @@ Attackers might identify and compromise other APIs/services integrated with the 
 
 ### Broken Object Property Level Authorization
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** OWASP API Security Top 10
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** OWASP API Security Top 10
 
 **Affects:** Patient Facing Services, Clinician Services
 
@@ -427,7 +427,7 @@ An attacker could access private/sensitive object properties, potentially leadin
 
 ### Improper Inventory Management
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** OWASP API Security Top 10
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** OWASP API Security Top 10
 
 **Affects:** Patient Facing Services, Clinician Services
 
@@ -443,7 +443,7 @@ Attackers could gain unauthorized access through old API versions, unpatched end
 
 ### Server Side Request Forgery (SSRF)
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** OWASP API Security Top 10
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** OWASP API Security Top 10
 
 **Affects:** Patient Facing Services, Clinician Services
 
@@ -463,7 +463,7 @@ Attackers could exploit SSRF vulnerabilities in APIs to cause internal services 
 
 ### Unrestricted Resource Consumption
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP API Security Top 10
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** OWASP API Security Top 10
 
 **Affects:** Service data, Patient Facing Services, Medical data, Clinician Services, Gateway, Sensor Data
 
@@ -480,7 +480,7 @@ Attackers could exploit unrestricted resource consumption, leading to DoS due to
 
 ### Unrestricted Access to Sensitive Business Flows
 
-**Risk:** Low · **Likelihood:** Low · **Severity:** Low · **Framework:** OWASP API Security Top 10
+**Priority:** Low · **Likelihood:** Low · **Severity:** Low · **Framework:** OWASP API Security Top 10
 
 **Affects:** Patient Facing Services, Clinician Services
 
@@ -498,7 +498,7 @@ Attackers could exploit sensitive business flows in APIs, causing harm such as p
 
 ### Data Disclosure
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** LINDDUN
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** LINDDUN
 
 **Affects:** Operating System
 
@@ -518,7 +518,7 @@ Excessively collecting, storing, processing, or sharing personal data. The data 
 
 ### Non-Compliance
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** LINDDUN
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** LINDDUN
 
 **Affects:** Medical data, Medical App, Operating System
 
@@ -532,7 +532,7 @@ The system deviates from security and data management best practices, standards,
 
 ### Data exfiltration from local storage
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** LINDDUN
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** LINDDUN
 
 **Affects:** Sensor Data
 
@@ -547,7 +547,7 @@ Sensitive patient data and device telemetry stored on the device (e.g., logs, ca
 
 ### Identifying
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** LINDDUN
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** LINDDUN
 
 **Affects:** Patient Facing Services, Medical data, Medical App, Clinician Services, Operating System
 
@@ -567,7 +567,7 @@ Learning the identity of an individual. Although many systems require the identi
 
 ### Linking
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** LINDDUN
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** LINDDUN
 
 **Affects:** Medical data
 
@@ -587,7 +587,7 @@ Associating data items or user actions to learn more about an individual or a gr
 
 ### Detecting
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** LINDDUN
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** LINDDUN
 
 **Affects:** Patient Facing Services, Medical data, Medical App, Clinician Services
 
@@ -604,7 +604,7 @@ Deducing the involvement of an individual by observing. Detecting threats does n
 
 ### Unawareness and Unintervenability
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** LINDDUN
+**Priority:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** LINDDUN
 
 **Affects:** Medical data, Medical App, Operating System
 
@@ -620,7 +620,7 @@ Insufficiently informing, involving or empowering individuals in the processing 
 
 ### Broken access control
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Top Ten
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Top Ten
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -639,7 +639,7 @@ An attacker could exploit broken access control to access unauthorized functiona
 
 ### Credential Leakage
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** CWE
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** CWE
 
 **Affects:** Operating System
 
@@ -653,7 +653,7 @@ Secrets such as API keys, tokens, or credentials could be accidentally exposed i
 
 ### Security Misconfiguration (Web and Mobile)
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Top Ten
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Top Ten
 
 **Affects:** Other Apps, Updated Medical App, Medical App, Operating System
 
@@ -669,7 +669,7 @@ An attacker could exploit security misconfigurations to gain unauthorized access
 
 ### Vulnerable and Outdated Components
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Top Ten
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Top Ten
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -685,7 +685,7 @@ An attacker could target vulnerable and outdated components, such as libraries, 
 
 ### Bypass Access Control
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP Top Ten
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP Top Ten
 
 **Affects:** Patient Facing Services, Clinician Services
 
@@ -702,7 +702,7 @@ As an attacker, I aim to bypass access control checks by modifying the URL via p
 
 ### Cryptographic failure
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** CWE
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** CWE
 
 **Affects:** Other Apps, Updated Medical App, Medical App, Operating System
 
@@ -719,7 +719,7 @@ An attacker could exploit cryptographic failures to access sensitive data unprot
 
 ### Hard-coded Credentials
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** CWE
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** CWE
 
 **Affects:** Operating System
 
@@ -734,7 +734,7 @@ The product contains hard-coded credentials, such as a password or cryptographic
 
 ### Identification and Authentication Failures
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP Top Ten
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP Top Ten
 
 **Affects:** Operating System
 
@@ -750,7 +750,7 @@ An attacker could exploit identification and authentication failures to imperson
 
 ### Information Disclosure
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE
 
 **Affects:** Service data, Other Apps, Patient Facing Services, Medical data, Updated Medical App, Medical App, Clinician Services, Gateway, Sensor Data
 
@@ -765,7 +765,7 @@ Information disclosure is the unintentional exposure or release of confidential 
 
 ### Injection flaws
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP Top Ten
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP Top Ten
 
 **Affects:** Other Apps, Patient Facing Services, Updated Medical App, Medical App, Clinician Services
 
@@ -781,7 +781,7 @@ An attacker could use injection flaws (like SQL, NoSQL, and OS command injection
 
 ### Insufficient Transport Layer Protection
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** CWE
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** CWE
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -795,7 +795,7 @@ Data transmitted between the mobile app and server can be intercepted if not pro
 
 ### Least Privilege Principle Violation
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -809,7 +809,7 @@ An attacker breaches the deny-by-default policy, leading to potential exploitati
 
 ### Logging Failure
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** CWE
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** CWE
 
 **Affects:** Service data, Medical data, Sensor Data
 
@@ -825,7 +825,7 @@ An attacker can attack the App Server, and because it does not log at the correc
 
 ### Medical Social Engineering
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE
 
 **Affects:** Clinician, Patient
 
@@ -842,7 +842,7 @@ An adversary uses deception (phishing, vishing, pretexting, or impersonation) ta
 
 ### Security Logging and Monitoring Failures
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** CWE
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** CWE
 
 **Affects:** Operating System
 
@@ -858,7 +858,7 @@ An attacker could leverage insufficient logging and monitoring to carry out atta
 
 ### Session Hijacking
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP Top Ten
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP Top Ten
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -874,7 +874,7 @@ An attacker discovers/compromises the session management strategy and gains acce
 
 ### Spoofing
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE
 
 **Affects:** Other Apps, Patient Facing Services, Updated Medical App, Medical App, Clinician Services, Gateway
 
@@ -890,7 +890,7 @@ Spoofing is where an attacker masquerades as a trusted entity to gain unauthoriz
 
 ### Tampering
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE
 
 **Affects:** Service data, Other Apps, Patient Facing Services, Medical data, Updated Medical App, Medical App, Clinician Services, Gateway, Sensor Data
 
@@ -905,7 +905,7 @@ Tampering with data involves unauthorized changes to digital information, often 
 
 ### Weak Server-Side Controls
 
-**Risk:** High · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Top Ten
+**Priority:** High · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Top Ten
 
 **Affects:** Other Apps, Updated Medical App, Medical App
 
@@ -921,7 +921,7 @@ Servers interacting with the mobile app may have vulnerabilities due to improper
 
 ### Denial of Service
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE
 
 **Affects:** Service data, Other Apps, Patient Facing Services, Medical data, Updated Medical App, Medical App, Clinician Services, Gateway, Sensor Data
 
@@ -935,7 +935,7 @@ Denial of service (DoS) is an attack that disrupts the normal functioning of a s
 
 ### Elevation of Privilege
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE
 
 **Affects:** Other Apps, Patient Facing Services, Updated Medical App, Medical App, Clinician Services, Gateway
 
@@ -950,7 +950,7 @@ Elevation of privilege is when an attacker gains unauthorized access to higher-l
 
 ### Missing authentication
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** CWE
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** CWE
 
 **Affects:** Other Apps, Patient Facing Services, Updated Medical App, Medical App, Clinician Services, Gateway
 
@@ -965,7 +965,7 @@ The product does not perform any authentication for functionality that requires 
 
 ### Repudiation
 
-**Risk:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** STRIDE
+**Priority:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** STRIDE
 
 **Affects:** Service data, Other Apps, Patient Facing Services, Medical data, Updated Medical App, Medical App, Clinician Services, Gateway, Sensor Data
 
@@ -982,7 +982,7 @@ Repudiation is the rejection or denial of a performed action.
 
 ### Physical theft or loss of portable devices (PHI exposure)
 
-**Risk:** Unrated · **Likelihood:** n/a · **Severity:** n/a
+**Priority:** Unrated · **Likelihood:** n/a · **Severity:** n/a
 
 **Affects:** Medical Device
 
@@ -995,7 +995,7 @@ Portable medical devices—such as tablets, diagnostic readers, or home-use moni
 
 ### Time synchronization manipulation (affecting logs, alarms, safety timing)
 
-**Risk:** Unrated · **Likelihood:** n/a · **Severity:** n/a
+**Priority:** Unrated · **Likelihood:** n/a · **Severity:** n/a
 
 **Affects:** Health Controller
 
@@ -1008,7 +1008,7 @@ An attacker tampers with the device’s time source (NTP, GPS, internal RTC, or 
 
 ### Unauthorized parameter modification (e.g., dose rate, voltage, pacing interval)
 
-**Risk:** Unrated · **Likelihood:** n/a · **Severity:** n/a
+**Priority:** Unrated · **Likelihood:** n/a · **Severity:** n/a
 
 **Affects:** Health Controller
 

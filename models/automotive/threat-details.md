@@ -6,7 +6,7 @@ For each threat: how the attack works, what it affects, and which mitigations co
 
 ### Braking & Safety ECU Command Suppression / Safety System Disablement
 
-**Risk:** Critical · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Denial of Service
+**Priority:** Critical · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Denial of Service
 
 **Affects:** Braking & Safety ECU
 
@@ -21,7 +21,7 @@ An attacker with access to the vehicle’s internal networks (through compromise
 
 ### ECU impersonation / spoofing
 
-**Risk:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Spoofing
+**Priority:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Spoofing
 
 **Affects:** CAN Bus
 
@@ -36,7 +36,7 @@ A malicious device attached to the CAN network can masquerade as a legitimate EC
 
 ### Gateway or bridge compromise
 
-**Risk:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Elevation of Privilege
+**Priority:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Elevation of Privilege
 
 **Affects:** CAN Bus
 
@@ -51,7 +51,7 @@ Modern vehicles use central gateways to isolate CAN subnets (powertrain, chassis
 
 ### Lateral movement to CAN or vehicle control networks
 
-**Risk:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Elevation of Privilege
+**Priority:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Elevation of Privilege
 
 **Affects:** Infotainment OS
 
@@ -66,7 +66,7 @@ If the infotainment system shares a bridge or gateway with the vehicle’s CAN b
 
 ### ADAS Sensor Manipulation / Assistance System Degradation
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** Lane keeping, adaptive cruise control, and parking sensors
 
@@ -81,7 +81,7 @@ An attacker who compromises vehicle networks or ADAS sensor inputs (camera, rada
 
 ### Bus flooding / Denial-of-service (DoS)
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Denial of Service
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Denial of Service
 
 **Affects:** CAN Bus
 
@@ -96,7 +96,7 @@ Attackers can flood the CAN bus with high-priority frames, monopolizing bandwidt
 
 ### Diagnostic interface exploitation (OBD-II, UDS)
 
-**Risk:** High · **Likelihood:** High · **Severity:** High · **Framework:** STRIDE: Elevation of Privilege
+**Priority:** High · **Likelihood:** High · **Severity:** High · **Framework:** STRIDE: Elevation of Privilege
 
 **Affects:** CAN Bus
 
@@ -111,7 +111,7 @@ Standardized diagnostic protocols like UDS (Unified Diagnostic Services) allow a
 
 ### ECU firmware manipulation or reflashing
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** CAN Bus
 
@@ -126,7 +126,7 @@ If attackers gain access to diagnostic ports or OTA update systems, they can ove
 
 ### Engine & Powertrain ECU Overload / Destructive DoS
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Denial of Service
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Denial of Service
 
 **Affects:** Engine & powertrain ECU
 
@@ -141,7 +141,7 @@ An attacker who gains access to the powertrain CAN domain (via compromised gatew
 
 ### Exploiting insecure bootloaders
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** CAN Bus
 
@@ -156,7 +156,7 @@ If ECUs do not enforce secure boot, attackers can load modified or malicious fir
 
 ### Memory corruption or buffer overflow in ECU software
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** CWE / STRIDE: Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** CWE / STRIDE: Tampering
 
 **Affects:** CAN Bus
 
@@ -171,7 +171,7 @@ Bugs in ECU firmware parsers or network stacks can lead to memory corruption whe
 
 ### Replay attacks on CAN traffic
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE: Spoofing
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE: Spoofing
 
 **Affects:** CAN Bus
 
@@ -186,7 +186,7 @@ Captured legitimate messages can be replayed at a later time to trigger vehicle 
 
 ### Unauthorized CAN message injection
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** CAN Bus
 
@@ -201,7 +201,7 @@ Attackers can inject forged messages onto the CAN bus to impersonate legitimate 
 
 ### Key or credential leakage from ECUs
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE: Info Disclosure
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE: Info Disclosure
 
 **Affects:** CAN Bus
 
@@ -218,7 +218,7 @@ Some ECUs store cryptographic keys or authentication tokens insecurely in flash 
 
 ### Bluetooth exploitation
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE: Elevation of Privilege
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE: Elevation of Privilege
 
 **Affects:** Bluetooth Controller
 
@@ -233,7 +233,7 @@ Weak Bluetooth implementations or pairing protocols can allow attackers to eaves
 
 ### Compromised mobile app integrations (Android Auto / CarPlay)
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE: Spoofing
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** STRIDE: Spoofing
 
 **Affects:** Infotainment OS
 
@@ -248,7 +248,7 @@ When smartphones connect via Android Auto or Apple CarPlay, vulnerabilities in m
 
 ### Security Misconfiguration (Web and Mobile)
 
-**Risk:** High · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Security Misconfig
+**Priority:** High · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Security Misconfig
 
 **Affects:** Infotainment OS
 
@@ -264,7 +264,7 @@ An attacker could exploit security misconfigurations to gain unauthorized access
 
 ### Client-Side Injection
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** OWASP: Injection
+**Priority:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** OWASP: Injection
 
 **Affects:** Infotainment OS
 
@@ -279,7 +279,7 @@ Attackers exploit vulnerabilities by injecting malicious code (e.g., JavaScript,
 
 ### Malicious USB device injection
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** STRIDE: Tampering
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** STRIDE: Tampering
 
 **Affects:** USB Controller
 
@@ -294,7 +294,7 @@ A malicious USB stick or device can deliver payloads when connected to the media
 
 ### Voice-assistant command injection
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** STRIDE: Tampering
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** STRIDE: Tampering
 
 **Affects:** Infotainment OS
 
@@ -309,7 +309,7 @@ Voice-recognition interfaces can be tricked by ultrasonic or hidden audio comman
 
 ### Session Hijacking
 
-**Risk:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** OWASP: Broken Access Control
+**Priority:** Low · **Likelihood:** Medium · **Severity:** Low · **Framework:** OWASP: Broken Access Control
 
 **Affects:** Infotainment OS
 
@@ -325,7 +325,7 @@ An attacker discovers/compromises the session management strategy and gains acce
 
 ### Side-channel data leakage
 
-**Risk:** Low · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE: Info Disclosure
+**Priority:** Low · **Likelihood:** Low · **Severity:** High · **Framework:** STRIDE: Info Disclosure
 
 **Affects:** Infotainment OS
 
@@ -341,7 +341,7 @@ Sensitive data can be inadvertently exposed through logs, screenshots, or backgr
 
 ### Broken Authentication
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Identification Failures
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Identification Failures
 
 **Affects:** Infotainment OS
 
@@ -358,7 +358,7 @@ Attackers could target authentication mechanisms, potentially gaining complete c
 
 ### Exploiting legacy or unsupported firmware
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Vulnerable Components
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Vulnerable Components
 
 **Affects:** Infotainment System
 
@@ -373,7 +373,7 @@ Vehicles often run outdated infotainment firmware that no longer receives patche
 
 ### Hijacked OTA (Over-the-Air) update mechanisms
 
-**Risk:** Critical · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
+**Priority:** Critical · **Likelihood:** Low · **Severity:** Critical · **Framework:** STRIDE: Tampering
 
 **Affects:** Infotainment OS
 
@@ -388,7 +388,7 @@ Compromised OTA servers or unverified firmware packages can inject malicious sof
 
 ### Insecure Data Storage
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Mobile: Insecure Storage
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** OWASP Mobile: Insecure Storage
 
 **Affects:** Infotainment OS
 
@@ -402,7 +402,7 @@ Sensitive data (like personal information, credentials, or financial data) store
 
 ### Broken access control
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP: Broken Access Control
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP: Broken Access Control
 
 **Affects:** Infotainment OS
 
@@ -420,7 +420,7 @@ An attacker could exploit broken access control to access unauthorized functiona
 
 ### Cryptographic failure
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** OWASP: Crypto Failures
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** OWASP: Crypto Failures
 
 **Affects:** Infotainment OS
 
@@ -437,7 +437,7 @@ An attacker could exploit cryptographic failures to access sensitive data unprot
 
 ### Data Disclosure
 
-**Risk:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** LINDDUN: Identifiability
+**Priority:** High · **Likelihood:** High · **Severity:** Medium · **Framework:** LINDDUN: Identifiability
 
 **Affects:** Bluetooth Controller, GPS
 
@@ -457,7 +457,7 @@ Excessively collecting, storing, processing, or sharing personal data. The data 
 
 ### Exploiting unpatched software vulnerabilities
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP: Vulnerable Components
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP: Vulnerable Components
 
 **Affects:** Infotainment OS
 
@@ -472,7 +472,7 @@ Attackers may exploit outdated or unpatched software in the infotainment operati
 
 ### Insecure Inter-Process Communication (IPC)
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Elevation of Privilege
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** STRIDE: Elevation of Privilege
 
 **Affects:** Infotainment OS
 
@@ -486,7 +486,7 @@ Insecure communication between apps or components can be intercepted or manipula
 
 ### Insufficient Transport Layer Protection
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP: Crypto Failures
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** OWASP: Crypto Failures
 
 **Affects:** Infotainment OS
 
@@ -500,7 +500,7 @@ Data transmitted between the mobile app and server can be intercepted if not pro
 
 ### Vulnerable and Outdated Components
 
-**Risk:** High · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Vulnerable Components
+**Priority:** High · **Likelihood:** High · **Severity:** High · **Framework:** OWASP: Vulnerable Components
 
 **Affects:** Infotainment OS
 
@@ -516,7 +516,7 @@ An attacker could target vulnerable and outdated components, such as libraries, 
 
 ### Weak Server-Side Controls
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** OWASP API: Broken Object Level Auth
+**Priority:** High · **Likelihood:** Medium · **Severity:** Critical · **Framework:** OWASP API: Broken Object Level Auth
 
 **Affects:** Infotainment OS
 
@@ -532,7 +532,7 @@ Servers interacting with the mobile app may have vulnerabilities due to improper
 
 ### Insecure Communication with Third-Party Services
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** OWASP API: Unsafe Consumption
+**Priority:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** OWASP API: Unsafe Consumption
 
 **Affects:** Infotainment OS
 
@@ -547,7 +547,7 @@ Mobile apps often interact with third-party APIs or services, which may be insec
 
 ### Malicious Code and Malware
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** STRIDE: Tampering
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** STRIDE: Tampering
 
 **Affects:** Infotainment OS
 
@@ -561,7 +561,7 @@ Mobile devices can be infected with malware that can compromise apps, steal data
 
 ### Reverse Engineering
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** STRIDE: Info Disclosure
+**Priority:** Medium · **Likelihood:** High · **Severity:** Low · **Framework:** STRIDE: Info Disclosure
 
 **Affects:** Infotainment OS
 

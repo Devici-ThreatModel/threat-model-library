@@ -6,7 +6,7 @@ For each threat: how the attack works, what it affects, and which mitigations co
 
 ### Broken Authentication
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Spoofing
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Spoofing
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, Authentication App
 
@@ -24,7 +24,7 @@ Attackers could target authentication mechanisms, potentially gaining complete c
 
 ### Broken Object Level Authorization
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Information Disclosure
+**Priority:** Critical · **Likelihood:** High · **Severity:** Critical · **Framework:** Information Disclosure
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service
 
@@ -42,7 +42,7 @@ An attacker could exploit API endpoints with broken object-level authorization b
 
 ### Credential Theft
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Spoofing
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** API Gateway
 
@@ -57,7 +57,7 @@ An attacker steals or guesses a password using a Brute-force attack, phishing, o
 
 ### Information Disclosure
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, auth_db (Postgres), user_db (Postgres), content_db (Postgres), User Database, Authentication App, Identity Provider, Log Database, Content Delivery Network
 
@@ -72,7 +72,7 @@ Information disclosure is the unintentional exposure or release of confidential 
 
 ### Security Misconfiguration (API)
 
-**Risk:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Tampering
+**Priority:** Critical · **Likelihood:** High · **Severity:** High · **Framework:** Tampering
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service
 
@@ -88,7 +88,7 @@ Attackers might exploit unpatched flaws, services with insecure default configur
 
 ### Server Side Request Forgery (SSRF)
 
-**Risk:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** Elevation of Privilege
+**Priority:** Critical · **Likelihood:** Medium · **Severity:** Critical · **Framework:** Elevation of Privilege
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service
 
@@ -108,7 +108,7 @@ Attackers could exploit SSRF vulnerabilities in APIs to cause internal services 
 
 ### Broken Function Level Authorization
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Elevation of Privilege
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Elevation of Privilege
 
 **Affects:** API Gateway
 
@@ -124,7 +124,7 @@ An attacker could send legitimate API calls to endpoints they should not have ac
 
 ### Broken Object Property Level Authorization
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** API Gateway
 
@@ -140,7 +140,7 @@ An attacker could access private/sensitive object properties, potentially leadin
 
 ### Broken access control
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Elevation of Privilege
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Elevation of Privilege
 
 **Affects:** Authentication App
 
@@ -156,7 +156,7 @@ An attacker could exploit broken access control to access unauthorized functiona
 
 ### Bypass Access Control
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Elevation of Privilege
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Elevation of Privilege
 
 **Affects:** API Gateway
 
@@ -172,7 +172,7 @@ As an attacker, I aim to bypass access control checks by modifying the URL via p
 
 ### Credential Leakage
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** API Gateway
 
@@ -186,7 +186,7 @@ Secrets such as API keys, tokens, or credentials could be accidentally exposed i
 
 ### Credential Leakage or Theft
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Information Disclosure
 
 **Affects:** SMS / Text Code
 
@@ -201,7 +201,7 @@ Secrets such as API keys, tokens, or credentials could be accidentally exposed i
 
 ### Elevation of Privilege
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Elevation of Privilege
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Elevation of Privilege
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, Authentication App, Identity Provider, Content Delivery Network
 
@@ -216,7 +216,7 @@ Elevation of privilege is when an attacker gains unauthorized access to higher-l
 
 ### Identification and Authentication Failures
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** Identity Provider
 
@@ -232,7 +232,7 @@ An attacker could exploit identification and authentication failures to imperson
 
 ### Malicious Code and Malware
 
-**Risk:** High · **Likelihood:** Low · **Severity:** High · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Low · **Severity:** High · **Framework:** Tampering
 
 **Affects:** Browser
 
@@ -246,7 +246,7 @@ Mobile devices can be infected with malware that can compromise apps, steal data
 
 ### Missing authentication
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, Authentication App, Identity Provider
 
@@ -261,7 +261,7 @@ The product does not perform any authentication for functionality that requires 
 
 ### Security Logging and Monitoring Failures
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Repudiation
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Repudiation
 
 **Affects:** Log Database
 
@@ -277,7 +277,7 @@ An attacker could leverage insufficient logging and monitoring to carry out atta
 
 ### Session Hijacking
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** Identity Provider, Browser
 
@@ -293,7 +293,7 @@ An attacker discovers/compromises the session management strategy and gains acce
 
 ### Software and Data Integrity Failures
 
-**Risk:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Low · **Severity:** Critical · **Framework:** Tampering
 
 **Affects:** Content Delivery Network
 
@@ -309,7 +309,7 @@ An attacker could exploit software and data integrity failures, such as assuming
 
 ### Spoofing
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Spoofing
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, Authentication App, Identity Provider, Content Delivery Network
 
@@ -325,7 +325,7 @@ Spoofing is where an attacker masquerades as a trusted entity to gain unauthoriz
 
 ### Tampering
 
-**Risk:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
+**Priority:** High · **Likelihood:** Medium · **Severity:** High · **Framework:** Tampering
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, auth_db (Postgres), user_db (Postgres), content_db (Postgres), User Database, Authentication App, Identity Provider, Log Database, Content Delivery Network
 
@@ -341,7 +341,7 @@ Tampering with data involves unauthorized changes to digital information, often 
 
 ### Denial of Service
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Denial of Service
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Denial of Service
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, auth_db (Postgres), user_db (Postgres), content_db (Postgres), User Database, Authentication App, Identity Provider, Log Database, Content Delivery Network
 
@@ -355,7 +355,7 @@ Denial of service (DoS) is an attack that disrupts the normal functioning of a s
 
 ### Improper Inventory Management
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** Tampering
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** Tampering
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service
 
@@ -371,7 +371,7 @@ Attackers could gain unauthorized access through old API versions, unpatched end
 
 ### Least Privilege Principle Violation
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Elevation of Privilege
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Elevation of Privilege
 
 **Affects:** Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, Authentication App
 
@@ -386,7 +386,7 @@ An attacker breaches the deny-by-default policy, leading to potential exploitati
 
 ### Logging Failure
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** Repudiation
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** Repudiation
 
 **Affects:** auth_db (Postgres), user_db (Postgres), content_db (Postgres), User Database, Log Database
 
@@ -402,7 +402,7 @@ An attacker can attack the App Server, and because it does not log at the correc
 
 ### Unrestricted Access to Sensitive Business Flows
 
-**Risk:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** Denial of Service
+**Priority:** Medium · **Likelihood:** Medium · **Severity:** Medium · **Framework:** Denial of Service
 
 **Affects:** API Gateway
 
@@ -418,7 +418,7 @@ Attackers could exploit sensitive business flows in APIs, causing harm such as p
 
 ### Unrestricted Resource Consumption
 
-**Risk:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Denial of Service
+**Priority:** Medium · **Likelihood:** High · **Severity:** Medium · **Framework:** Denial of Service
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, auth_db (Postgres), user_db (Postgres), content_db (Postgres), User Database, Identity Provider, Log Collector, Log Database
 
@@ -435,7 +435,7 @@ Attackers could exploit unrestricted resource consumption, leading to DoS due to
 
 ### Unsafe Consumption of APIs
 
-**Risk:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** Tampering
+**Priority:** Medium · **Likelihood:** Low · **Severity:** High · **Framework:** Tampering
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service
 
@@ -451,7 +451,7 @@ Attackers might identify and compromise other APIs/services integrated with the 
 
 ### Repudiation
 
-**Risk:** Low · **Likelihood:** Low · **Severity:** Medium · **Framework:** Repudiation
+**Priority:** Low · **Likelihood:** Low · **Severity:** Medium · **Framework:** Repudiation
 
 **Affects:** API Gateway, Authentication & Authorization Service, User Profile / Account Service, Content / Domain Data Service, auth_db (Postgres), user_db (Postgres), content_db (Postgres), User Database, Authentication App, Identity Provider, Log Database, Browser, Content Delivery Network
 

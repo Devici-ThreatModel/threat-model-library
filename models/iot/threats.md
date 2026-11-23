@@ -1,10 +1,10 @@
 # IoT Device: Threats
 
-41 curated threats, grouped by theme and ordered by risk. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
+41 curated threats, grouped by theme and ordered by priority. Select a threat for its full description and mitigations. Back to the [model overview](README.md).
 
-## Risk summary
+## Priority summary
 
-| Risk level | Threats |
+| Priority level | Threats |
 |---|---|
 | Critical | 10 |
 | High | 24 |
@@ -13,7 +13,7 @@
 
 ## Cloud & API Security Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Broken Authentication](threat-details.md#broken-authentication) | OWASP: Identification Failures | High | Critical | **Critical** | Hijack user sessions to access personal data or control smart home devices remotely. |
 | [Broken Object Level Authorization](threat-details.md#broken-object-level-authorization) | OWASP API: Broken Object Level Auth | High | Critical | **Critical** | Manipulate ID parameters (BOLA) to view or control other users' thermostats. |
@@ -32,7 +32,7 @@
 
 ## Device, Firmware & Physical Security Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [End-of-life devices](threat-details.md#end-of-life-devices) | OWASP: Vulnerable Components | High | High | **Critical** | Exploiting unpatched vulnerabilities in legacy devices that are no longer supported. |
 | [Insecure boot chain](threat-details.md#insecure-boot-chain) | STRIDE: Tampering | Medium | Critical | **Critical** | Loading malicious OS/firmware at startup to create a persistent botnet node. |
@@ -48,7 +48,7 @@
 
 ## Operational Logic, Data & Safety Threats
 
-| Threat | Framework | Likelihood | Severity | Risk | Attacker goal / impact |
+| Threat | Framework | Likelihood | Severity | Priority | Attacker goal / impact |
 |---|---|---|---|---|---|
 | [Elevation of Privilege](threat-details.md#elevation-of-privilege) | STRIDE: Elevation of Privilege | Medium | Critical | **Critical** | Gaining unauthorized administrative rights within the cloud or device OS. |
 | [Insecure Data Storage](threat-details.md#insecure-data-storage) | OWASP: Cryptographic Failures | High | High | **Critical** | Storing Wi-Fi passwords or PII in plaintext on local flash memory or S3 buckets. |

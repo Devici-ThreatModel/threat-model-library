@@ -3950,11 +3950,10 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:MAESTRO"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -3972,11 +3971,10 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:OWASP Top Ten"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -3994,11 +3992,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4016,11 +4013,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4038,11 +4034,10 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -4060,11 +4055,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:Medium",
-        "risk:Medium",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -4082,7 +4076,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:OWASP Top Ten"
       ],
       "isCustom": true,
@@ -4104,7 +4097,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:MAESTRO"
       ],
       "isCustom": true,
@@ -4126,11 +4118,10 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:CWE"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -4148,7 +4139,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:CWE"
       ],
       "isCustom": true,
@@ -4170,11 +4160,10 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:LINDDUN"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -4192,11 +4181,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:LINDDUN"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4214,7 +4202,6 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:Medium",
         "framework:STRIDE"
       ],
       "isCustom": true,
@@ -4236,7 +4223,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:Critical",
-        "risk:Critical",
         "framework:Devici Custom Methodology"
       ],
       "isCustom": true,
@@ -4258,11 +4244,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:Medium",
-        "risk:Medium",
         "framework:LINDDUN"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -4280,11 +4265,10 @@
       "tags": [
         "likelihood:Low",
         "severity:High",
-        "risk:Medium",
         "framework:STRIDE"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -4302,7 +4286,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:CWE"
       ],
       "isCustom": true,
@@ -4324,11 +4307,10 @@
       "tags": [
         "likelihood:Low",
         "severity:High",
-        "risk:Medium",
         "framework:CWE"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -4346,11 +4328,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:OWASP Top Ten"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4368,7 +4349,6 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:LINDDUN"
       ],
       "isCustom": true,
@@ -4390,11 +4370,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:Medium",
-        "risk:Medium",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -4412,7 +4391,6 @@
       "tags": [
         "likelihood:Low",
         "severity:Critical",
-        "risk:High",
         "framework:CWE"
       ],
       "isCustom": true,
@@ -4434,7 +4412,6 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:STRIDE"
       ],
       "isCustom": true,
@@ -4456,11 +4433,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:OWASP Top Ten"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4478,11 +4454,10 @@
       "tags": [
         "likelihood:Low",
         "severity:Critical",
-        "risk:High",
         "framework:CWE"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4500,7 +4475,6 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:MAESTRO"
       ],
       "isCustom": true,
@@ -4522,7 +4496,6 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:MAESTRO"
       ],
       "isCustom": true,
@@ -4544,11 +4517,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:Critical",
-        "risk:High",
         "framework:CWE"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4566,7 +4538,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:MAESTRO"
       ],
       "isCustom": true,
@@ -4588,7 +4559,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:CWE"
       ],
       "isCustom": true,
@@ -4610,7 +4580,6 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:STRIDE"
       ],
       "isCustom": true,
@@ -4632,7 +4601,6 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:LINDDUN"
       ],
       "isCustom": true,
@@ -4654,11 +4622,10 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:CWE"
       ],
       "isCustom": true,
-      "priority": "medium",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4676,11 +4643,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:Critical",
-        "risk:High",
         "framework:Devici Custom Methodology"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4698,11 +4664,10 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:MAESTRO"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -4720,11 +4685,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:MAESTRO"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4742,11 +4706,10 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:MAESTRO"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4764,11 +4727,10 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:Medium",
         "framework:MAESTRO"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -4786,7 +4748,6 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:MAESTRO"
       ],
       "isCustom": true,
@@ -4808,7 +4769,6 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:STRIDE"
       ],
       "isCustom": true,
@@ -4830,11 +4790,10 @@
       "tags": [
         "likelihood:Low",
         "severity:High",
-        "risk:Medium",
         "framework:CWE"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -4852,11 +4811,10 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:LINDDUN"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -4891,11 +4849,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:Low",
-        "risk:Low",
         "framework:STRIDE"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "low",
       "refId": null,
       "source": null
     },
@@ -4913,7 +4870,6 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:Medium",
         "framework:MAESTRO"
       ],
       "isCustom": true,
@@ -4935,11 +4891,10 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:High",
         "framework:CWE"
       ],
       "isCustom": true,
-      "priority": "medium",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -4957,11 +4912,10 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -4979,11 +4933,10 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:OWASP Top Ten"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -5001,11 +4954,10 @@
       "tags": [
         "likelihood:Low",
         "severity:High",
-        "risk:Medium",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -5023,7 +4975,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:OWASP Top Ten"
       ],
       "isCustom": true,
@@ -5045,11 +4996,10 @@
       "tags": [
         "likelihood:High",
         "severity:Low",
-        "risk:Medium",
         "framework:MAESTRO"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -5067,7 +5017,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:STRIDE"
       ],
       "isCustom": true,
@@ -5089,7 +5038,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:STRIDE"
       ],
       "isCustom": true,
@@ -5111,11 +5059,10 @@
       "tags": [
         "likelihood:Low",
         "severity:High",
-        "risk:Medium",
         "framework:CWE"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -5133,11 +5080,10 @@
       "tags": [
         "likelihood:Low",
         "severity:Critical",
-        "risk:High",
         "framework:Devici Custom Methodology"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -5172,11 +5118,10 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:MAESTRO"
       ],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -5211,11 +5156,10 @@
       "tags": [
         "likelihood:High",
         "severity:Low",
-        "risk:Medium",
         "framework:LINDDUN"
       ],
       "isCustom": true,
-      "priority": "high",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -5233,11 +5177,10 @@
       "tags": [
         "likelihood:Low",
         "severity:Low",
-        "risk:Low",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
-      "priority": "medium",
+      "priority": "low",
       "refId": null,
       "source": null
     },
@@ -5255,7 +5198,6 @@
       "tags": [
         "likelihood:High",
         "severity:Medium",
-        "risk:Medium",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
@@ -5277,7 +5219,6 @@
       "tags": [
         "likelihood:Medium",
         "severity:High",
-        "risk:High",
         "framework:OWASP API Security Top 10"
       ],
       "isCustom": true,
@@ -5299,7 +5240,6 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:Critical",
         "framework:OWASP Top Ten"
       ],
       "isCustom": true,
@@ -5321,7 +5261,6 @@
       "tags": [
         "likelihood:High",
         "severity:High",
-        "risk:High",
         "framework:OWASP Top Ten"
       ],
       "isCustom": true,
