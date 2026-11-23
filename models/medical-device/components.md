@@ -1,0 +1,24 @@
+# Medical Device: Components and Data Flow
+
+Each element of the reference architecture, with its role and the attributes that drive threat generation. Back to the [model overview](README.md).
+
+| Component | Description | Linked attributes |
+|---|---|---|
+| Trust Boundary: Medical Device | Physical hardware interacting with the patient. |  |
+| Sensor Data | Input store or buffer holding raw physiological measurements from sensors. |  |
+| Health Controller | Core processing logic that interprets sensor data and manages device state. |  |
+| Operating System | Embedded firmware/OS managing hardware resources and communications. | Default credential, Firmware, Error and Debugging Information, cryptographic key |
+| Trust Boundary: Patient Cell Phone | The user's mobile environment (untrusted/BYOD). |  |
+| Medical App | The primary interface application for the patient to view data and control the device. | Mobile App, Mobile Application, Protected Health Information |
+| Other Apps | Third-party applications sharing the OS; potential source of malware or interference. | Mobile Application, Mobile App |
+| Trust Boundary: App Store | External distribution platform. |  |
+| Updated Medical App | The binary package source for application updates and patches. | Mobile App, Mobile Application |
+| Trust Boundary: Infrastructure | Backend cloud or server environment. |  |
+| Gateway | API entry point mediating traffic between external clients and internal services. | API Gateway |
+| Patient Facing Services | Backend logic specifically handling requests from the Patient's mobile app. | API, Protected Health Information |
+| Clinician Services | Backend logic handling portal requests and management tools for Clinicians. | API, Protected Health Information |
+| Service Data | Data store for application configuration, logs, or non-sensitive user metadata. |  |
+| Medical Data | High-value target database storing sensitive Patient Health Information (PHI). |  |
+| External Entities | Actors outside the technical scope. |  |
+| Patient | The human user interacting physically with the device and digitally with the app. |  |
+| Clinician | The healthcare provider accessing patient data via the backend infrastructure. |  |

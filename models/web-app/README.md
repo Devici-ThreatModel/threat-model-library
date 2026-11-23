@@ -1,21 +1,52 @@
 # Web Application Reference Threat Model
 
-A cloud-hosted, service-oriented web app serving external users through a browser, with a CDN for static assets and an API gateway in front of three services (content/domain data, user profile/account, authentication/authorization), a database per service, an identity provider for MFA, and a centralized logging service.
+A web application with supporting cloud services, with a focus on the web application.
 
-**Importable model:** [`web-app.otm.json`](web-app.otm.json)
+**Scenario:** Web Application Architecture: Service-Based Application Layer Analysis
 
-## Scope
+## In this folder
 
-**In scope:** The application layer, API gateway, the three services and their databases, and client-side browser interaction.
+- [`web-app.otm.json`](web-app.otm.json): importable model (OTM 0.2.0). See [Importing into Devici](../../docs/importing-into-devici.md).
+- [Components and data flow](components.md): every element, its role, and its attributes
+- [Threats](threats.md): curated threats by theme, with likelihood, severity, and risk
+- [Threat details](threat-details.md): how each attack works and which mitigations counter it
+- [Mitigation library](mitigation-library.md): every mitigation with implementation guidance, rationale, and examples
+- [Review notes](review-notes.md): what the model covers, and where it falls short
 
-**Out of scope:** Underlying cloud infrastructure and the internals of managed services such as the CDN and IdP.
+## At a glance
+
+|  | Count |
+|---|---|
+| Curated threats documented here | 29 |
+| Distinct mitigations | 56 |
+| Threat-to-mitigation mappings | 83 |
+| Threats in the full importable model | 134 |
+
+The documentation covers the curated set we scored and prioritized. The importable model also includes every additional threat mapped to its components.
+
+| Risk level | Threats |
+|---|---|
+| Critical | 6 |
+| High | 15 |
+| Medium | 7 |
+| Low | 1 |
+
+| Control type | Mitigations |
+|---|---|
+| Preventive | 48 |
+| Detective | 7 |
+| Corrective | 1 |
+
+## System summary
+
+The system is a cloud-hosted web application utilizing a service-oriented architecture. It serves external users via a web browser, employing a Content Delivery Network (CDN) for static assets and an API Gateway for routing requests. The backend consists of three distinct application services:
+    - Content / Domain Data Service: Manages business data CRUD operations.
+    - User Profile / Account Service: Handles user-specific profiles and billing data.
+    - AuthC / AuthZ Service: Validates credentials and enforces access controls.
+Service-to-service communication is restricted primarily to authorization validation. Data persistence follows a "database-per-service" pattern to ensure isolation. Supporting cloud components include an Identity Provider (IdP) for MFA/User management and a Centralized Logging Service.
 
 ## Assumptions
 
-The cloud provider supplies a secure baseline; the IdP handles MFA and token cryptography securely; service-to-service traffic stays on a private network.
-
-## Known gaps
-
-Injection from the browser, XSS, CSRF, cryptographic failures, and clickjacking are not modeled explicitly; add them for your own system.
-
-See [Importing into Devici](../../docs/importing-into-devici.md) to load this model.
+- The underlying cloud infrastructure provides a secure baseline (e.g., physical security, OS patching).
+- The Identity Provider (IdP) securely handles cryptographic operations for MFA and token management.
+- Internal service-to-service communication is contained within a private, restricted network.

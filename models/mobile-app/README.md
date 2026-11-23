@@ -1,21 +1,60 @@
 # Mobile App Reference Threat Model
 
-A mobile app running in its OS sandbox: UI, application logic, local storage, and communication with backend and cloud services.
+This model shows how a mobile app handles user input, authentication, storage, and communication within sandboxed and cloud systems.
 
-**Importable model:** [`mobile-app.otm.json`](mobile-app.otm.json)
+**Scenario:** Mobile Application Architecture: Data Flow & Sandbox Integration
+
+## In this folder
+
+- [`mobile-app.otm.json`](mobile-app.otm.json): importable model (OTM 0.2.0). See [Importing into Devici](../../docs/importing-into-devici.md).
+- [Components and data flow](components.md): every element, its role, and its attributes
+- [Threats](threats.md): curated threats by theme, with likelihood, severity, and risk
+- [Threat details](threat-details.md): how each attack works and which mitigations counter it
+- [Mitigation library](mitigation-library.md): every mitigation with implementation guidance, rationale, and examples
+- [Review notes](review-notes.md): what the model covers, and where it falls short
+
+## At a glance
+
+|  | Count |
+|---|---|
+| Curated threats documented here | 42 |
+| Distinct mitigations | 59 |
+| Threat-to-mitigation mappings | 88 |
+| Threats in the full importable model | 58 |
+
+The documentation covers the curated set we scored and prioritized. The importable model also includes every additional threat mapped to its components.
+
+| Risk level | Threats |
+|---|---|
+| Critical | 8 |
+| High | 20 |
+| Medium | 10 |
+| Low | 4 |
+
+| Control type | Mitigations |
+|---|---|
+| Preventive | 54 |
+| Detective | 4 |
+| Corrective | 1 |
+
+## System summary
+
+The system represents a mobile application operating within a secure mobile operating system environment. The core structure is defined by the Mobile App Sandbox, which isolates the application execution. Key components include:
+- User Interface (UI): Captures user input and displays data.
+- Application Logic: The central controller managing communication between internal components (Local Auth, Credential Storage, App Store Client) and external endpoints.
+- Storage Layer: Consists of Application Storage (private cache), Credential Storage (secure tokens), and Shared Storage (data exchange).
+- External Integration: The app communicates via encrypted network channels with Application Services (Backend APIs), OAuth 2.0 / OpenID Connect Providers (Identity), and the App Store.
 
 ## Scope
 
-**In scope:** The app sandbox and its interfaces to the OS, user, and backend.
+In-Scope: The logical flow of data within the mobile device, the interaction between the User and the UI, the internal mechanics of the App Sandbox (logic, storage), and the interfaces to external systems.
 
-**Out of scope:** Backend internals and app-store infrastructure.
+Out-of-Scope: The internal implementation details of the cloud services and the App Store backend; these are treated as external entities.
 
 ## Assumptions
 
-The OS enforces sandboxing; users may install the app from official or unofficial channels.
+The Mobile Operating System correctly enforces sandbox isolation and app permissions.
 
-## Known gaps
+Network communication is protected by standard encryption (TLS) and is not intercepted (e.g., no hostile proxies).
 
-Add the standard mobile components relevant to your app (push notifications, deep links, SDKs) before relying on the model.
-
-See [Importing into Devici](../../docs/importing-into-devici.md) to load this model.
+Authentication follows standard OAuth 2.0 / OpenID Connect flows without customization deviations.
