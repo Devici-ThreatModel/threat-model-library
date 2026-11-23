@@ -1,6 +1,6 @@
 # IoT Device: Threats
 
-41 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [iot-threats-and-mitigations.csv](iot-threats-and-mitigations.csv). Back to the [model overview](README.md).
+41 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [iot-reference.xlsx](iot-reference.xlsx). Back to the [model overview](README.md).
 
 ## Priority summary
 

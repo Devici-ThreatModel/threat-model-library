@@ -1,6 +1,6 @@
 # Automotive: Threats
 
-37 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [automotive-threats-and-mitigations.csv](automotive-threats-and-mitigations.csv). Back to the [model overview](README.md).
+37 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [automotive-reference.xlsx](automotive-reference.xlsx). Back to the [model overview](README.md).
 
 ## Priority summary
 

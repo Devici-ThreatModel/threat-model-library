@@ -1,6 +1,6 @@
 # Medical Device: Threats
 
-64 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [medical-device-threats-and-mitigations.csv](medical-device-threats-and-mitigations.csv). Back to the [model overview](README.md).
+64 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [medical-device-reference.xlsx](medical-device-reference.xlsx). Back to the [model overview](README.md).
 
 ## Priority summary
 

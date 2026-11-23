@@ -4,7 +4,7 @@
 
 Threat modeling is easier when you aren't starting from a blank canvas. This library is a collection of reference threat models for the systems teams actually build (web apps, mobile apps, LLM and agentic systems, IoT, automotive, and medical devices) alongside guidance on how to evaluate, organize, and prioritize what you find.
 
-Each reference model has full written documentation (components, threats, mitigations, and review notes) plus CSV downloads alongside an importable file in Open Threat Model (OTM) format, containing components, data flows, trust boundaries, threats, and mitigations. Load them into [Devici](https://app.devici.com/sign-up) for free, or read the JSON directly.
+Each reference model has full written documentation (components, threats, mitigations, and review notes) plus an Excel workbook download alongside an importable file in Open Threat Model (OTM) format, containing components, data flows, trust boundaries, threats, and mitigations. Load them into [Devici](https://app.devici.com/sign-up) for free, or read the JSON directly.
 
 > Published by [Devici](https://devici.com).
 
@@ -42,8 +42,7 @@ models/<industry>/
   README.md              # overview, priority summary, scope, assumptions
   components.md          # every component and data flow
   threats.md             # curated threats by theme, with priority levels and mitigations
-  <name>-threats-and-mitigations.csv  # full descriptions and mitigation guidance
-  <name>-components.csv  # components and data flow
+  <name>-reference.xlsx  # workbook: overview, components, threats, mitigations, review notes
   review-notes.md        # coverage gaps and refinements (where available)
 docs/                 # best-practice guides
 ```

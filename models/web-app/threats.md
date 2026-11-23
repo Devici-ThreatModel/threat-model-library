@@ -1,6 +1,6 @@
 # Web Application: Threats
 
-29 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [web-app-threats-and-mitigations.csv](web-app-threats-and-mitigations.csv). Back to the [model overview](README.md).
+29 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [web-app-reference.xlsx](web-app-reference.xlsx). Back to the [model overview](README.md).
 
 ## Priority summary
 

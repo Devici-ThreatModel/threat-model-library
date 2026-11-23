@@ -9,8 +9,7 @@ This model shows how medical data moves between devices, patient apps, cloud ser
 - [`medical-device.otm.json`](medical-device.otm.json): importable model (OTM 0.2.0). See [Importing into Devici](../../docs/importing-into-devici.md).
 - [Components and data flow](components.md): every element, its role, and its attributes
 - [Threats](threats.md): curated threats by theme, with likelihood, severity, priority, and recommended mitigations
-- [`medical-device-threats-and-mitigations.csv`](medical-device-threats-and-mitigations.csv): download with full threat descriptions and mitigation guidance (implementation steps, rationale, examples, control category)
-- [`medical-device-components.csv`](medical-device-components.csv): download of every component and data flow
+- [`medical-device-reference.xlsx`](medical-device-reference.xlsx): Excel workbook download with the full model on separate tabs (overview, components, threats, mitigations with guidance, review notes)
 - [Review notes](review-notes.md): what the model covers, and where it falls short
 
 ## At a glance

@@ -1,6 +1,6 @@
 # LLM and Agentic Systems: Threats
 
-90 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [llm-agentic-ai-threats-and-mitigations.csv](llm-agentic-ai-threats-and-mitigations.csv). Back to the [model overview](README.md).
+90 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [llm-agentic-ai-reference.xlsx](llm-agentic-ai-reference.xlsx). Back to the [model overview](README.md).
 
 ## Priority summary
 

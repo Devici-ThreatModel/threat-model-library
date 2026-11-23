@@ -1,6 +1,6 @@
 # Mobile App: Threats
 
-42 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [mobile-app-threats-and-mitigations.csv](mobile-app-threats-and-mitigations.csv). Back to the [model overview](README.md).
+42 curated threats, grouped by theme and ordered by priority. For full descriptions and mitigation guidance, download [mobile-app-reference.xlsx](mobile-app-reference.xlsx). Back to the [model overview](README.md).
 
 ## Priority summary
 

@@ -9,8 +9,7 @@ This model maps how a connected vehicle’s infotainment, ECUs, and networks exc
 - [`automotive.otm.json`](automotive.otm.json): importable model (OTM 0.2.0). See [Importing into Devici](../../docs/importing-into-devici.md).
 - [Components and data flow](components.md): every element, its role, and its attributes
 - [Threats](threats.md): curated threats by theme, with likelihood, severity, priority, and recommended mitigations
-- [`automotive-threats-and-mitigations.csv`](automotive-threats-and-mitigations.csv): download with full threat descriptions and mitigation guidance (implementation steps, rationale, examples, control category)
-- [`automotive-components.csv`](automotive-components.csv): download of every component and data flow
+- [`automotive-reference.xlsx`](automotive-reference.xlsx): Excel workbook download with the full model on separate tabs (overview, components, threats, mitigations with guidance, review notes)
 - [Review notes](review-notes.md): what the model covers, and where it falls short
 
 ## At a glance
