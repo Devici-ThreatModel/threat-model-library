@@ -8,9 +8,9 @@ This model shows how an LLM system handles data flow between users, agents, mode
 
 - [`llm.otm.json`](llm.otm.json): importable model (OTM 0.2.0). See [Importing into Devici](../../docs/importing-into-devici.md).
 - [Components and data flow](components.md): every element, its role, and its attributes
-- [Threats](threats.md): curated threats by theme, with likelihood, severity, and priority
-- [Threat details](threat-details.md): how each attack works and which mitigations counter it
-- [Mitigation library](mitigation-library.md): every mitigation with implementation guidance, rationale, and examples
+- [Threats](threats.md): curated threats by theme, with likelihood, severity, priority, and recommended mitigations
+- [`llm-agentic-ai-threats-and-mitigations.csv`](llm-agentic-ai-threats-and-mitigations.csv): download with full threat descriptions and mitigation guidance (implementation steps, rationale, examples, control category)
+- [`llm-agentic-ai-components.csv`](llm-agentic-ai-components.csv): download of every component and data flow
 
 ## At a glance
 

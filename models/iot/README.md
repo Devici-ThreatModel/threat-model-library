@@ -8,9 +8,9 @@ This model shows how a smart air system collects sensor data, analyzes it in the
 
 - [`iot-device.otm.json`](iot-device.otm.json): importable model (OTM 0.2.0). See [Importing into Devici](../../docs/importing-into-devici.md).
 - [Components and data flow](components.md): every element, its role, and its attributes
-- [Threats](threats.md): curated threats by theme, with likelihood, severity, and priority
-- [Threat details](threat-details.md): how each attack works and which mitigations counter it
-- [Mitigation library](mitigation-library.md): every mitigation with implementation guidance, rationale, and examples
+- [Threats](threats.md): curated threats by theme, with likelihood, severity, priority, and recommended mitigations
+- [`iot-threats-and-mitigations.csv`](iot-threats-and-mitigations.csv): download with full threat descriptions and mitigation guidance (implementation steps, rationale, examples, control category)
+- [`iot-components.csv`](iot-components.csv): download of every component and data flow
 - [Review notes](review-notes.md): what the model covers, and where it falls short
 
 ## At a glance
