@@ -3313,7 +3313,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": false,
-      "priority": "high",
+      "priority": "medium",
       "refId": "0d79ddb5-2c89-4108-af25-ad21c5f35733",
       "source": "Devici Custom Methodology<&#>Mobile"
     },
@@ -3347,7 +3347,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": false,
-      "priority": "high",
+      "priority": "medium",
       "refId": "d72f16f9-4e78-4164-99c7-1869f70673e8",
       "source": "Devici Custom Methodology<&#>Mobile"
     },
@@ -3364,7 +3364,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": false,
-      "priority": "critical",
+      "priority": "high",
       "refId": "f72e5190-81cc-4c16-ab27-e1e844a63705",
       "source": "OWASP Top Ten<&#>OWASPTopTen:2021:A06"
     },
@@ -3432,7 +3432,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": false,
-      "priority": "high",
+      "priority": "low",
       "refId": "f31ac747-ef32-40f8-89e1-9e936edfe436",
       "source": "CAPITALS<&#>Authentication & Session Management Failure"
     },
@@ -3483,7 +3483,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": false,
-      "priority": "critical",
+      "priority": "medium",
       "refId": "e4096d9c-bfa1-481a-840a-4e61ae1a7830",
       "source": "Devici Custom Methodology<&#>Mobile"
     },
@@ -3551,7 +3551,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": false,
-      "priority": "high",
+      "priority": "low",
       "refId": "d640c17b-4078-4f9b-9932-14750619012d",
       "source": "Devici Custom Methodology<&#>Mobile"
     },
@@ -3568,7 +3568,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -3653,7 +3653,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "high",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -3687,7 +3687,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "medium",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -3721,7 +3721,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -3738,7 +3738,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "high",
+      "priority": "medium",
       "refId": null,
       "source": null
     },
@@ -3755,7 +3755,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -3772,7 +3772,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -3789,7 +3789,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "medium",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -3823,7 +3823,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "medium",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -3857,7 +3857,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "high",
+      "priority": "critical",
       "refId": null,
       "source": null
     },
@@ -3891,7 +3891,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     },
@@ -3942,7 +3942,7 @@
       "attributes": null,
       "tags": [],
       "isCustom": true,
-      "priority": "critical",
+      "priority": "high",
       "refId": null,
       "source": null
     }
