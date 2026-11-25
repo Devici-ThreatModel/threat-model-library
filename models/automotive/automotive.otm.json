@@ -172,7 +172,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1773.4615384615386,
+            "x": 1933.4615384615386,
             "y": 876.6332165680483
           },
           "size": {
@@ -229,7 +229,7 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "124ced8f-d398-4f74-9b1c-bb335b211dcf",
+              "mitigation": "87c7eba9-2f45-4e06-b733-8a36c57bb680",
               "state": "done"
             },
             {
@@ -243,7 +243,7 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "06121bfe-a17b-45a7-8726-de6152a45375",
+              "mitigation": "fc863460-bd58-40c3-b2c2-09f7300b185f",
               "state": "done"
             },
             {
@@ -257,11 +257,11 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "7f8f1599-d0ba-4c7a-912f-ee39c934334a",
+              "mitigation": "046bce35-aa0a-48ff-bc45-73401d08e94f",
               "state": "done"
             },
             {
-              "mitigation": "76ddf25d-5735-4b78-86f2-105620cc993f",
+              "mitigation": "174847f2-fb5e-4193-8be3-fa89d347aca3",
               "state": "done"
             }
           ]
@@ -289,7 +289,7 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "499ca7d7-5822-4250-9eed-b8c67c774241",
+              "mitigation": "41004f58-82e9-4afb-ae2a-0dcd6776e3f7",
               "state": "done"
             },
             {
@@ -297,15 +297,11 @@
               "state": "done"
             },
             {
-              "mitigation": "41004f58-82e9-4afb-ae2a-0dcd6776e3f7",
+              "mitigation": "03704c3d-0a00-4a7e-b62d-0bb704fd8e6a",
               "state": "done"
             },
             {
-              "mitigation": "6ca45fb0-cc71-4359-8ae1-cbbc2df67003",
-              "state": "done"
-            },
-            {
-              "mitigation": "6d7030e9-2a33-49aa-a679-0452d9cb43e3",
+              "mitigation": "e279daa1-f09c-472b-ac8a-fb817d289478",
               "state": "done"
             }
           ]
@@ -343,7 +339,7 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "3b07461b-fd24-4d4d-bae5-b598a2e0835f",
+              "mitigation": "f5714c70-2571-43b4-9e6b-77393dec865e",
               "state": "done"
             },
             {
@@ -351,7 +347,7 @@
               "state": "done"
             },
             {
-              "mitigation": "8c502800-51a9-4455-94e1-5dd810f950dd",
+              "mitigation": "72ecd37b-0ba6-4c07-b7cb-52be4ca510b4",
               "state": "done"
             }
           ]
@@ -375,6 +371,10 @@
             {
               "mitigation": "f5714c70-2571-43b4-9e6b-77393dec865e",
               "state": "done"
+            },
+            {
+              "mitigation": "8e68684f-8720-4045-9355-05181d9b7bea",
+              "state": "done"
             }
           ]
         },
@@ -383,7 +383,11 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "4efabe09-a880-4d4e-8e98-b24d01aeb950",
+              "mitigation": "72ecd37b-0ba6-4c07-b7cb-52be4ca510b4",
+              "state": "done"
+            },
+            {
+              "mitigation": "f27c0412-6a25-48fb-b96b-0bafe4d7a0f4",
               "state": "done"
             }
           ]
@@ -393,7 +397,11 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "dd0e5b5d-fb2a-402a-9668-aa3dcd52fe26",
+              "mitigation": "db54a756-b157-47b2-bdec-b2c45af222c6",
+              "state": "done"
+            },
+            {
+              "mitigation": "69082e11-ee10-4707-99ab-eae5981e72fc",
               "state": "done"
             }
           ]
@@ -409,6 +417,10 @@
             {
               "mitigation": "7b49ffc0-5713-4e68-bfc4-f5dad110a960",
               "state": "done"
+            },
+            {
+              "mitigation": "08166ddb-7bec-4d68-a3f9-779266a041e2",
+              "state": "done"
             }
           ]
         },
@@ -421,15 +433,11 @@
               "state": "done"
             },
             {
-              "mitigation": "1929d6f0-ebc4-4259-b5d0-df54737a0464",
+              "mitigation": "72ecd37b-0ba6-4c07-b7cb-52be4ca510b4",
               "state": "done"
             },
             {
               "mitigation": "1f7a91d4-a134-4fd5-9551-574219b3eeec",
-              "state": "done"
-            },
-            {
-              "mitigation": "0692ae21-a218-4342-bd19-4e3920e3d35b",
               "state": "done"
             }
           ]
@@ -449,7 +457,7 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "5d8ed3f3-2510-4026-86ef-f1cdad67e053",
+              "mitigation": "acaf888c-b7f0-4b34-b518-b6089cf4b3c1",
               "state": "done"
             }
           ]
@@ -473,15 +481,15 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "6f113b27-0d9f-42e6-9547-6a47b0e8a6d1",
+              "mitigation": "3eab8033-ede8-42f4-9f8c-b299e7130360",
               "state": "done"
             },
             {
-              "mitigation": "a6ac5d3e-468e-4f22-afd9-5b985fd7aabb",
+              "mitigation": "5e1c9db2-2b4f-4f8d-8e6d-84d75bfd93b5",
               "state": "done"
             },
             {
-              "mitigation": "f5d242a4-a89f-4bf3-9ec3-39493c1686c6",
+              "mitigation": "13978ce7-3734-4d39-a8ba-babb03cd8e97",
               "state": "done"
             }
           ]
@@ -491,7 +499,7 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "a271e861-228e-4f3e-92d4-21720a573e7d",
+              "mitigation": "bc596522-b64f-48ef-8478-91ab8ecacfcb",
               "state": "done"
             }
           ]
@@ -501,7 +509,7 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "f4e816fe-85e1-458d-ba73-a51750bb2eca",
+              "mitigation": "03704c3d-0a00-4a7e-b62d-0bb704fd8e6a",
               "state": "done"
             },
             {
@@ -509,7 +517,7 @@
               "state": "done"
             },
             {
-              "mitigation": "87c7eba9-2f45-4e06-b733-8a36c57bb680",
+              "mitigation": "01470c67-18bb-4f65-a829-b7aa3745b545",
               "state": "done"
             }
           ]
@@ -999,31 +1007,31 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "7922c565-ba11-463d-afd6-b7f599078673",
+              "mitigation": "e3a4a579-fd58-42b1-9b2f-b00625e765c0",
               "state": "done"
             },
             {
-              "mitigation": "47bb80c0-2d2d-40ea-b399-5dfe8297004e",
+              "mitigation": "bb3acd84-b682-4df7-bae3-19fbdcd6611b",
               "state": "done"
             },
             {
-              "mitigation": "e4f95311-7a97-4871-9a21-4f3b42ca65b9",
-              "state": null
-            },
-            {
-              "mitigation": "61eb2f9b-fe09-44a9-a563-5f20d1372b2a",
-              "state": null
-            },
-            {
-              "mitigation": "70532463-4617-422a-92c2-90d87a0bc926",
+              "mitigation": "48093b23-6898-4558-8513-1ca888a1829e",
               "state": "done"
             },
             {
-              "mitigation": "8651d03d-47f8-49c6-9699-bad30b707ad0",
+              "mitigation": "72ecd37b-0ba6-4c07-b7cb-52be4ca510b4",
               "state": "done"
             },
             {
-              "mitigation": "6cb85cd4-9c65-4f39-8875-127dd4f7ba31",
+              "mitigation": "d9641db4-eb0f-4176-8baa-f68a1c52d7a7",
+              "state": "done"
+            },
+            {
+              "mitigation": "03704c3d-0a00-4a7e-b62d-0bb704fd8e6a",
+              "state": "done"
+            },
+            {
+              "mitigation": "67ddaef8-0e64-42e4-ad6e-46aba340173b",
               "state": "done"
             }
           ]
@@ -1097,22 +1105,6 @@
           "state": "complete",
           "mitigations": [
             {
-              "mitigation": "4d7f4bb6-70ad-4317-b3e3-d2de1102b569",
-              "state": "done"
-            },
-            {
-              "mitigation": "d9641db4-eb0f-4176-8baa-f68a1c52d7a7",
-              "state": "done"
-            },
-            {
-              "mitigation": "03704c3d-0a00-4a7e-b62d-0bb704fd8e6a",
-              "state": null
-            },
-            {
-              "mitigation": "72ecd37b-0ba6-4c07-b7cb-52be4ca510b4",
-              "state": null
-            },
-            {
               "mitigation": "e3a4a579-fd58-42b1-9b2f-b00625e765c0",
               "state": "done"
             },
@@ -1122,6 +1114,22 @@
             },
             {
               "mitigation": "48093b23-6898-4558-8513-1ca888a1829e",
+              "state": "done"
+            },
+            {
+              "mitigation": "72ecd37b-0ba6-4c07-b7cb-52be4ca510b4",
+              "state": "done"
+            },
+            {
+              "mitigation": "d9641db4-eb0f-4176-8baa-f68a1c52d7a7",
+              "state": "done"
+            },
+            {
+              "mitigation": "03704c3d-0a00-4a7e-b62d-0bb704fd8e6a",
+              "state": "done"
+            },
+            {
+              "mitigation": "67ddaef8-0e64-42e4-ad6e-46aba340173b",
               "state": "done"
             }
           ]
@@ -1256,7 +1264,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1626.99876690228,
+            "x": 1786.99876690228,
             "y": -14.538461538461661
           },
           "size": {
@@ -1277,6 +1285,10 @@
             },
             {
               "mitigation": "97340e14-417a-4f3d-8d9d-e71f73a3c94a",
+              "state": "done"
+            },
+            {
+              "mitigation": "df974e30-7566-4188-8ffe-4e84fc12764f",
               "state": "done"
             }
           ]
@@ -1320,6 +1332,10 @@
             {
               "mitigation": "518c72d9-ad78-43c7-8105-7a5314f2f144",
               "state": "done"
+            },
+            {
+              "mitigation": "f8245993-20f7-4586-98cf-f435053a3258",
+              "state": "done"
             }
           ]
         },
@@ -1333,6 +1349,10 @@
             },
             {
               "mitigation": "d55f297a-accf-4de5-95cb-2c5479dc261e",
+              "state": "done"
+            },
+            {
+              "mitigation": "fb2065c5-cec6-4776-a7cd-e42a10031a5b",
               "state": "done"
             }
           ]
@@ -1378,34 +1398,6 @@
               "state": "done"
             }
           ]
-        },
-        {
-          "threat": "e77a7f15-e59f-40ad-adce-d4cf9bc36ba4",
-          "state": "complete",
-          "mitigations": [
-            {
-              "mitigation": "9771b442-9de3-422c-b450-1b25abf55cce",
-              "state": "done"
-            },
-            {
-              "mitigation": "fda6b66e-5cb9-46fe-b73a-f47ff8ebcddf",
-              "state": "done"
-            }
-          ]
-        },
-        {
-          "threat": "ea646345-0f48-41d6-8659-fea44f08313c",
-          "state": "complete",
-          "mitigations": [
-            {
-              "mitigation": "f517d1b2-5a48-462a-880e-d1c57bf2b5f2",
-              "state": "done"
-            },
-            {
-              "mitigation": "97aae5c9-5585-4007-8573-c49fd6c7c13f",
-              "state": "done"
-            }
-          ]
         }
       ],
       "attributes": {}
@@ -1438,7 +1430,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1673.4615384615386,
+            "x": 1833.4615384615386,
             "y": 31.15384615384616
           },
           "size": {
@@ -1494,7 +1486,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1673.4615384615386,
+            "x": 1833.4615384615386,
             "y": 157.69230769230768
           },
           "size": {
@@ -1535,7 +1527,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1673.4615384615386,
+            "x": 1833.4615384615386,
             "y": 287.3076923076923
           },
           "size": {
@@ -1591,7 +1583,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1673.4615384615386,
+            "x": 1833.4615384615386,
             "y": 426.9886653955083
           },
           "size": {
@@ -1655,6 +1647,10 @@
             {
               "mitigation": "977c4c8a-fe89-4b2f-b703-1d46e466dab8",
               "state": "done"
+            },
+            {
+              "mitigation": "eb218562-ac61-4c4e-99df-7c3515b1b5a2",
+              "state": "done"
             }
           ]
         }
@@ -1689,7 +1685,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1673.4615384615386,
+            "x": 1833.4615384615386,
             "y": 558.3286929935499
           },
           "size": {
@@ -1730,7 +1726,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1950.2233320937662,
+            "x": 2110.223332093766,
             "y": 54.86715453201141
           },
           "size": {
@@ -1771,7 +1767,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1950.2233320937662,
+            "x": 2110.223332093766,
             "y": 181.53846153846155
           },
           "size": {
@@ -1812,7 +1808,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1950.2233320937662,
+            "x": 2110.223332093766,
             "y": 442.95451837344723
           },
           "size": {
@@ -1853,7 +1849,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1945.2233320937662,
+            "x": 2105.223332093766,
             "y": 578.4545779518633
           },
           "size": {
@@ -1909,7 +1905,7 @@
           "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
           "position": {
-            "x": 1950.2233320937662,
+            "x": 2110.223332093766,
             "y": 314.1083645272934
           },
           "size": {
@@ -2089,12 +2085,12 @@
     },
     {
       "representationId": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
-      "name": "The purpose of this model is to illustrate how information and control signals move within a modern connected vehicle, focusing on the relationships between infotainment systems, computing platforms, electronic control units (ECUs), and external networks. It captures how human interactions, onboard computing, and vehicle subsystems communicate to support entertainment, comfort, safety, and driving automation. The model is designed to help analyze security, privacy, and integration risks across hardware, software, and communication interfaces in a vehicle’s digital ecosystem.\n\nThe system structure is divided into several interconnected domains. The infotainment system forms the user-facing hub, handling inputs from the human driver or passengers through touch screens, rear screens, microphones, and connected devices such as mobile phones and tablets via Bluetooth or USB. These inputs are processed by controllers within the infotainment subsystem, which operates under an infotainment operating system that coordinates multimedia functions, communications, and environment settings. The onboard computer in the computing system acts as the vehicle’s core processing unit, linking infotainment features with vehicle control systems and managing overall logic, computation, and integration across multiple domains.\n\nThe CAN bus network connects the vehicle’s electronic control units, which handle critical and non-critical subsystems. These include the engine and powertrain ECU, transmission ECU, braking and safety ECU, body and comfort systems ECU, and advanced driver assistance ECU. Through this network, real-time operational data such as speed, torque, braking status, and environmental controls are transmitted between systems to support functions like adaptive cruise control, HVAC adjustments, traction control, and airbag deployment. The computing system ensures safe and prioritized communication between infotainment and the CAN bus without exposing sensitive control systems to unnecessary risk.\n\nApplication services in this model are distributed across the infotainment OS and the connected vehicle ecosystem. The infotainment OS manages entertainment, navigation, and connectivity, while vehicle ECUs handle safety, comfort, and automation features. The network components—Wi-Fi and GPS—extend the system beyond the vehicle, enabling over-the-air updates, telemetry, and navigation through communication with the vehicle manufacturer and internet data sources. GPS satellites provide location-based services, feeding into both navigation and advanced driver assistance functionalities.\n\nThe cloud components enable external data exchange, diagnostics, and updates. Wi-Fi connectivity links the vehicle to manufacturer systems for software updates, performance monitoring, and telemetry uploads, while internet data sources provide real-time traffic, mapping, and media services. These components allow for ongoing system optimization and remote servicing.\n\nThe modeling scope of this diagram focuses on logical data and control flows between human interfaces, vehicle computing systems, and external networks. It illustrates the trust boundaries between user-facing components, onboard computing, and vehicular control systems.",
+      "name": "The purpose of this model is to illustrate how information and control signals move within a modern connected vehicle, focusing on the relationships between infotainment systems, computing platforms, electronic control units (ECUs), and external networks. It captures how human interactions, onboard computing, and vehicle subsystems communicate to support entertainment, comfort, safety, and driving automation. The model is designed to help analyze security, privacy, and integration risks across hardware, software, and communication interfaces in a vehicle’s digital ecosystem.\n\nThe system structure is divided into several interconnected domains. The infotainment system forms the user-facing hub, handling inputs from the human driver or passengers through touch screens, rear screens, microphones, and connected devices such as mobile phones and tablets via Bluetooth or USB. These inputs are processed by controllers within the infotainment subsystem, which operates under an infotainment operating system that coordinates multimedia functions, communications, and environment settings. The onboard computer in the computing system acts as the vehicle’s core processing unit, linking infotainment features with vehicle control systems and managing overall logic, computation, and integration across multiple domains.\n\nThe CAN bus network connects the vehicle’s electronic control units, which handle critical and non-critical subsystems. These include the engine and powertrain ECU, transmission ECU, braking and safety ECU, body and comfort systems ECU, and advanced driver assistance ECU. Through this network, real-time operational data such as speed, torque, braking status, and environmental controls are transmitted between systems to support functions like adaptive cruise control, HVAC adjustments, traction control, and airbag deployment. The computing system ensures safe and prioritized communication between infotainment and the CAN bus without exposing sensitive control systems to unnecessary risk.\n\nApplication services in this model are distributed across the infotainment OS and the connected vehicle ecosystem. The infotainment OS manages entertainment, navigation, and connectivity, while vehicle ECUs handle safety, comfort, and automation features. The network components—Wi-Fi and GPS—extend the system beyond the vehicle, enabling over-the-air updates, telemetry, and navigation through communication with the vehicle manufacturer and internet data sources. GPS satellites provide location-based services, feeding into both navigation and advanced driver assistance functionalities.\n\nThe cloud components enable external data exchange, diagnostics, and updates. Wi-Fi connectivity links the vehicle to manufacturer systems for software updates, performance monitoring, and telemetry uploads, while internet data sources provide real-time traffic, mapping, and media services. These components allow for ongoing system optimization and remote servicing.\n\nThe modeling scope of this diagram focuses on logical data and control flows between human interfaces, vehicle computing systems, and external networks. It illustrates the trust boundaries between user-facing components, onboard computing, and vehicular control systems.\n\nVersion 2 adds the hardware the first version left out: a Central Gateway ECU between the computing system and the CAN bus, an OBD-II diagnostic port with a diagnostic tool or aftermarket dongle, a hardware security module (HSM) in the computing system, and a keyless entry receiver with its key fob feeding the Body & Comfort Systems ECU.",
       "id": "01713892-67a9-4f9f-b043-614c82d50117",
       "description": null,
       "metaData": {
         "id": "",
-        "label": "The purpose of this model is to illustrate how information and control signals move within a modern connected vehicle, focusing on the relationships between infotainment systems, computing platforms, electronic control units (ECUs), and external networks. It captures how human interactions, onboard computing, and vehicle subsystems communicate to support entertainment, comfort, safety, and driving automation. The model is designed to help analyze security, privacy, and integration risks across hardware, software, and communication interfaces in a vehicle’s digital ecosystem.\n\nThe system structure is divided into several interconnected domains. The infotainment system forms the user-facing hub, handling inputs from the human driver or passengers through touch screens, rear screens, microphones, and connected devices such as mobile phones and tablets via Bluetooth or USB. These inputs are processed by controllers within the infotainment subsystem, which operates under an infotainment operating system that coordinates multimedia functions, communications, and environment settings. The onboard computer in the computing system acts as the vehicle’s core processing unit, linking infotainment features with vehicle control systems and managing overall logic, computation, and integration across multiple domains.\n\nThe CAN bus network connects the vehicle’s electronic control units, which handle critical and non-critical subsystems. These include the engine and powertrain ECU, transmission ECU, braking and safety ECU, body and comfort systems ECU, and advanced driver assistance ECU. Through this network, real-time operational data such as speed, torque, braking status, and environmental controls are transmitted between systems to support functions like adaptive cruise control, HVAC adjustments, traction control, and airbag deployment. The computing system ensures safe and prioritized communication between infotainment and the CAN bus without exposing sensitive control systems to unnecessary risk.\n\nApplication services in this model are distributed across the infotainment OS and the connected vehicle ecosystem. The infotainment OS manages entertainment, navigation, and connectivity, while vehicle ECUs handle safety, comfort, and automation features. The network components—Wi-Fi and GPS—extend the system beyond the vehicle, enabling over-the-air updates, telemetry, and navigation through communication with the vehicle manufacturer and internet data sources. GPS satellites provide location-based services, feeding into both navigation and advanced driver assistance functionalities.\n\nThe cloud components enable external data exchange, diagnostics, and updates. Wi-Fi connectivity links the vehicle to manufacturer systems for software updates, performance monitoring, and telemetry uploads, while internet data sources provide real-time traffic, mapping, and media services. These components allow for ongoing system optimization and remote servicing.\n\nThe modeling scope of this diagram focuses on logical data and control flows between human interfaces, vehicle computing systems, and external networks. It illustrates the trust boundaries between user-facing components, onboard computing, and vehicular control systems.",
+        "label": "The purpose of this model is to illustrate how information and control signals move within a modern connected vehicle, focusing on the relationships between infotainment systems, computing platforms, electronic control units (ECUs), and external networks. It captures how human interactions, onboard computing, and vehicle subsystems communicate to support entertainment, comfort, safety, and driving automation. The model is designed to help analyze security, privacy, and integration risks across hardware, software, and communication interfaces in a vehicle’s digital ecosystem.\n\nThe system structure is divided into several interconnected domains. The infotainment system forms the user-facing hub, handling inputs from the human driver or passengers through touch screens, rear screens, microphones, and connected devices such as mobile phones and tablets via Bluetooth or USB. These inputs are processed by controllers within the infotainment subsystem, which operates under an infotainment operating system that coordinates multimedia functions, communications, and environment settings. The onboard computer in the computing system acts as the vehicle’s core processing unit, linking infotainment features with vehicle control systems and managing overall logic, computation, and integration across multiple domains.\n\nThe CAN bus network connects the vehicle’s electronic control units, which handle critical and non-critical subsystems. These include the engine and powertrain ECU, transmission ECU, braking and safety ECU, body and comfort systems ECU, and advanced driver assistance ECU. Through this network, real-time operational data such as speed, torque, braking status, and environmental controls are transmitted between systems to support functions like adaptive cruise control, HVAC adjustments, traction control, and airbag deployment. The computing system ensures safe and prioritized communication between infotainment and the CAN bus without exposing sensitive control systems to unnecessary risk.\n\nApplication services in this model are distributed across the infotainment OS and the connected vehicle ecosystem. The infotainment OS manages entertainment, navigation, and connectivity, while vehicle ECUs handle safety, comfort, and automation features. The network components—Wi-Fi and GPS—extend the system beyond the vehicle, enabling over-the-air updates, telemetry, and navigation through communication with the vehicle manufacturer and internet data sources. GPS satellites provide location-based services, feeding into both navigation and advanced driver assistance functionalities.\n\nThe cloud components enable external data exchange, diagnostics, and updates. Wi-Fi connectivity links the vehicle to manufacturer systems for software updates, performance monitoring, and telemetry uploads, while internet data sources provide real-time traffic, mapping, and media services. These components allow for ongoing system optimization and remote servicing.\n\nThe modeling scope of this diagram focuses on logical data and control flows between human interfaces, vehicle computing systems, and external networks. It illustrates the trust boundaries between user-facing components, onboard computing, and vehicular control systems.\n\nVersion 2 adds the hardware the first version left out: a Central Gateway ECU between the computing system and the CAN bus, an OBD-II diagnostic port with a diagnostic tool or aftermarket dongle, a hardware security module (HSM) in the computing system, and a keyless entry receiver with its key fob feeding the Body & Comfort Systems ECU.",
         "fontSize": 12,
         "textStyle": {
           "isBold": false,
@@ -2127,6 +2123,458 @@
       "assets": null,
       "threats": [],
       "attributes": null
+    },
+    {
+      "representationId": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+      "name": "Central Gateway ECU",
+      "id": "6cfaa1d5-727c-48df-b2fe-cd6dbee421aa",
+      "description": "Dedicated gateway ECU between the computing system and the CAN network. Separates network domains, filters and authenticates cross-domain messages, and enforces diagnostic access policy.",
+      "metaData": {
+        "id": "",
+        "label": "Central Gateway ECU",
+        "fontSize": 12,
+        "textStyle": {
+          "isBold": false,
+          "isItalic": false,
+          "isUnderline": false,
+          "isLineThrough": false
+        },
+        "selectedBy": [],
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21"
+      },
+      "parent": {
+        "trustZone": "6cfaa1d5-727c-48df-b2fe-cd6dbee421aa"
+      },
+      "type": "processNode",
+      "tags": [],
+      "representations": [
+        {
+          "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "position": {
+            "x": 1640,
+            "y": 300
+          },
+          "size": {
+            "width": 100,
+            "height": 100
+          }
+        }
+      ],
+      "assets": [],
+      "threats": [
+        {
+          "threat": "e77a7f15-e59f-40ad-adce-d4cf9bc36ba4",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "9771b442-9de3-422c-b450-1b25abf55cce",
+              "state": "done"
+            },
+            {
+              "mitigation": "fda6b66e-5cb9-46fe-b73a-f47ff8ebcddf",
+              "state": "done"
+            }
+          ]
+        },
+        {
+          "threat": "ea646345-0f48-41d6-8659-fea44f08313c",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "f517d1b2-5a48-462a-880e-d1c57bf2b5f2",
+              "state": "done"
+            },
+            {
+              "mitigation": "97aae5c9-5585-4007-8573-c49fd6c7c13f",
+              "state": "done"
+            }
+          ]
+        },
+        {
+          "threat": "fdf77d01-2ba0-4107-9fba-328db03f8e5b",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "d0d7953e-4c9d-43e4-a8f3-cafb54ccdd03",
+              "state": "done"
+            },
+            {
+              "mitigation": "54719973-ae67-455c-a358-cff93e2aeaa2",
+              "state": "done"
+            }
+          ]
+        },
+        {
+          "threat": "8e20f435-23d2-4cf9-bdbf-7ff4f13a9db9",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "101edb0c-438a-4569-9bde-43e3bcc6ecc1",
+              "state": "done"
+            },
+            {
+              "mitigation": "0b440d15-739b-4224-82f5-94aa3438d2a9",
+              "state": "done"
+            }
+          ]
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "representationId": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+      "name": "OBD-II Port",
+      "id": "3c5b9832-1568-4fc1-a19b-012c11adeb52",
+      "description": "Physical diagnostic port, usually under the steering wheel, giving wired access to the vehicle network through the central gateway.",
+      "metaData": {
+        "id": "",
+        "label": "OBD-II Port",
+        "fontSize": 12,
+        "textStyle": {
+          "isBold": false,
+          "isItalic": false,
+          "isUnderline": false,
+          "isLineThrough": false
+        },
+        "selectedBy": [],
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21"
+      },
+      "parent": {
+        "trustZone": "3c5b9832-1568-4fc1-a19b-012c11adeb52"
+      },
+      "type": "externalEntityNode",
+      "tags": [],
+      "representations": [
+        {
+          "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "position": {
+            "x": 1620,
+            "y": 470
+          },
+          "size": {
+            "width": 150,
+            "height": 50
+          }
+        }
+      ],
+      "assets": [],
+      "threats": [
+        {
+          "threat": "ea646345-0f48-41d6-8659-fea44f08313c",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "f517d1b2-5a48-462a-880e-d1c57bf2b5f2",
+              "state": "done"
+            },
+            {
+              "mitigation": "97aae5c9-5585-4007-8573-c49fd6c7c13f",
+              "state": "done"
+            }
+          ]
+        },
+        {
+          "threat": "34a5df4a-e533-4cb8-992c-9e67fd7e59a3",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "383bdf76-10c5-430e-b33c-0c2935164d13",
+              "state": "done"
+            },
+            {
+              "mitigation": "518c72d9-ad78-43c7-8105-7a5314f2f144",
+              "state": "done"
+            },
+            {
+              "mitigation": "f8245993-20f7-4586-98cf-f435053a3258",
+              "state": "done"
+            }
+          ]
+        },
+        {
+          "threat": "14e88504-e108-43f4-8884-1c7ab0236e7a",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "f1df8d9e-d8bc-4bba-a8c2-6b6491cc2645",
+              "state": "done"
+            },
+            {
+              "mitigation": "97340e14-417a-4f3d-8d9d-e71f73a3c94a",
+              "state": "done"
+            },
+            {
+              "mitigation": "df974e30-7566-4188-8ffe-4e84fc12764f",
+              "state": "done"
+            }
+          ]
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "representationId": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+      "name": "Diagnostic Tool or Aftermarket Dongle",
+      "id": "ce19f790-445a-4751-8dbf-b5492a015629",
+      "description": "Workshop scan tool, key programmer, or insurance/telematics dongle plugged into the OBD-II port.",
+      "metaData": {
+        "id": "",
+        "label": "Diagnostic Tool or Aftermarket Dongle",
+        "fontSize": 12,
+        "textStyle": {
+          "isBold": false,
+          "isItalic": false,
+          "isUnderline": false,
+          "isLineThrough": false
+        },
+        "selectedBy": [],
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21"
+      },
+      "parent": {
+        "trustZone": "ce19f790-445a-4751-8dbf-b5492a015629"
+      },
+      "type": "externalEntityNode",
+      "tags": [],
+      "representations": [
+        {
+          "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "position": {
+            "x": 1620,
+            "y": 570
+          },
+          "size": {
+            "width": 150,
+            "height": 60
+          }
+        }
+      ],
+      "assets": [],
+      "threats": [],
+      "attributes": {}
+    },
+    {
+      "representationId": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+      "name": "Hardware Security Module (HSM)",
+      "id": "6e69f184-8214-4cf7-9702-1df868ea0cb9",
+      "description": "Tamper-resistant crypto chip that stores private keys and verifies signatures for secure boot, OTA update verification and message authentication.",
+      "metaData": {
+        "id": "",
+        "label": "Hardware Security Module (HSM)",
+        "fontSize": 12,
+        "textStyle": {
+          "isBold": false,
+          "isItalic": false,
+          "isUnderline": false,
+          "isLineThrough": false
+        },
+        "selectedBy": [],
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21"
+      },
+      "parent": {
+        "trustZone": "6e69f184-8214-4cf7-9702-1df868ea0cb9"
+      },
+      "type": "processNode",
+      "tags": [],
+      "representations": [
+        {
+          "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "position": {
+            "x": 1428,
+            "y": 625
+          },
+          "size": {
+            "width": 100,
+            "height": 100
+          }
+        }
+      ],
+      "assets": [],
+      "threats": [
+        {
+          "threat": "1b1e9a23-112b-4817-ae34-8a2c8fd7f381",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "cc0e3153-e8d9-4ed4-8b62-51f696ea4b82",
+              "state": "done"
+            },
+            {
+              "mitigation": "325660ca-842e-4ef9-b2b7-73e9539e64c2",
+              "state": "done"
+            }
+          ]
+        },
+        {
+          "threat": "764a92d1-ee23-4371-a264-43dc916ea094",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "322c192f-5e09-45cb-9299-ecc4b389e394",
+              "state": "done"
+            },
+            {
+              "mitigation": "7b49ffc0-5713-4e68-bfc4-f5dad110a960",
+              "state": "done"
+            },
+            {
+              "mitigation": "08166ddb-7bec-4d68-a3f9-779266a041e2",
+              "state": "done"
+            }
+          ]
+        },
+        {
+          "threat": "ad13a33f-cc2d-42c9-b36f-fe73a7d711f8",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "4e5278ee-cbb4-4a66-8bc2-d4113a0fb70c",
+              "state": "done"
+            },
+            {
+              "mitigation": "61ce71f9-a9ba-4aff-837d-c0f4bf88d5a3",
+              "state": "done"
+            }
+          ]
+        },
+        {
+          "threat": "9c1c4e07-e798-4758-b66a-5bed04c1227a",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "acaf888c-b7f0-4b34-b518-b6089cf4b3c1",
+              "state": "done"
+            }
+          ]
+        },
+        {
+          "threat": "ad5d6487-6391-4c55-a0bb-0038cd2c798a",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "9388396b-2e3c-4492-80ae-7f25cf0f9f94",
+              "state": "done"
+            },
+            {
+              "mitigation": "b5b8852d-2088-4d56-adfe-9e3f58e4cb54",
+              "state": "done"
+            },
+            {
+              "mitigation": "d541fa17-8367-4099-aaa2-8f4d2f95f926",
+              "state": "done"
+            }
+          ]
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "representationId": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+      "name": "Keyless Entry Receiver",
+      "id": "fab83d6d-904a-413d-8750-a56762179100",
+      "description": "Radio receiver (RKE/PKE) that listens for the key fob on its own frequency and passes lock, unlock and start requests to the Body & Comfort Systems ECU.",
+      "metaData": {
+        "id": "",
+        "label": "Keyless Entry Receiver",
+        "fontSize": 12,
+        "textStyle": {
+          "isBold": false,
+          "isItalic": false,
+          "isUnderline": false,
+          "isLineThrough": false
+        },
+        "selectedBy": [],
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21"
+      },
+      "parent": {
+        "trustZone": "fab83d6d-904a-413d-8750-a56762179100"
+      },
+      "type": "processNode",
+      "tags": [],
+      "representations": [
+        {
+          "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "position": {
+            "x": 1833,
+            "y": 668
+          },
+          "size": {
+            "width": 100,
+            "height": 100
+          }
+        }
+      ],
+      "assets": [],
+      "threats": [
+        {
+          "threat": "78da2312-ac0d-4a34-9af2-b883200ec7a1",
+          "state": "complete",
+          "mitigations": [
+            {
+              "mitigation": "96f8f8e1-a636-4dec-a38a-2ad835671e37",
+              "state": "done"
+            },
+            {
+              "mitigation": "f0e84b3b-d2e8-404b-921a-19508d42809c",
+              "state": "done"
+            },
+            {
+              "mitigation": "8f55ca84-9570-4e1f-a21f-d806a4064adc",
+              "state": "done"
+            },
+            {
+              "mitigation": "7c8f4bb9-480a-4c2a-b946-26c6ad84752e",
+              "state": "done"
+            }
+          ]
+        }
+      ],
+      "attributes": {}
+    },
+    {
+      "representationId": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+      "name": "Key Fob",
+      "id": "f62fb8d5-606b-44f3-91c9-a55bbf1bde7a",
+      "description": "The owner's radio key fob, separate from Bluetooth and Wi-Fi.",
+      "metaData": {
+        "id": "",
+        "label": "Key Fob",
+        "fontSize": 12,
+        "textStyle": {
+          "isBold": false,
+          "isItalic": false,
+          "isUnderline": false,
+          "isLineThrough": false
+        },
+        "selectedBy": [],
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21"
+      },
+      "parent": {
+        "trustZone": "f62fb8d5-606b-44f3-91c9-a55bbf1bde7a"
+      },
+      "type": "externalEntityNode",
+      "tags": [],
+      "representations": [
+        {
+          "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "id": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+          "position": {
+            "x": 2110,
+            "y": 693
+          },
+          "size": {
+            "width": 150,
+            "height": 50
+          }
+        }
+      ],
+      "assets": [],
+      "threats": [],
+      "attributes": {}
     }
   ],
   "dataflows": [
@@ -3018,14 +3466,14 @@
       }
     },
     {
-      "name": "Onboard computer <--> Engine & powertrain ECU",
+      "name": "Central Gateway ECU <--> Engine & powertrain ECU",
       "id": "ada67954-4c1d-4b18-ae72-bf9547b84a0e",
       "bidirectional": true,
       "source": "8b60e687-b0c6-4313-a4f8-a3b43aeeb338",
-      "destination": "98d9b6ac-5c73-47bd-a7cd-65a39cf3a545",
+      "destination": "6cfaa1d5-727c-48df-b2fe-cd6dbee421aa",
       "metaData": {
         "color": "#6F767ECC",
-        "label": "Onboard computer <--> Engine & powertrain ECU",
+        "label": "Central Gateway ECU <--> Engine & powertrain ECU",
         "points": [],
         "fontSize": 12,
         "algorithm": "bezier-catmull-rom",
@@ -3053,14 +3501,14 @@
       }
     },
     {
-      "name": "Onboard computer <--> Transmission ECU",
+      "name": "Central Gateway ECU <--> Transmission ECU",
       "id": "6aa75228-75ba-451b-a817-d154e0234593",
       "bidirectional": true,
       "source": "ce65af92-1040-433c-82be-02453a0af2aa",
-      "destination": "98d9b6ac-5c73-47bd-a7cd-65a39cf3a545",
+      "destination": "6cfaa1d5-727c-48df-b2fe-cd6dbee421aa",
       "metaData": {
         "color": "#6F767ECC",
-        "label": "Onboard computer <--> Transmission ECU",
+        "label": "Central Gateway ECU <--> Transmission ECU",
         "points": [],
         "fontSize": 12,
         "algorithm": "bezier-catmull-rom",
@@ -3088,14 +3536,14 @@
       }
     },
     {
-      "name": "Onboard computer <--> Braking & Safety ECU",
+      "name": "Central Gateway ECU <--> Braking & Safety ECU",
       "id": "9ba5d347-c15c-4e23-b30f-4702fb69f7ae",
       "bidirectional": true,
       "source": "181f7f1f-3729-44f7-a2ea-0be785e93643",
-      "destination": "98d9b6ac-5c73-47bd-a7cd-65a39cf3a545",
+      "destination": "6cfaa1d5-727c-48df-b2fe-cd6dbee421aa",
       "metaData": {
         "color": "#6F767ECC",
-        "label": "Onboard computer <--> Braking & Safety ECU",
+        "label": "Central Gateway ECU <--> Braking & Safety ECU",
         "points": [],
         "fontSize": 12,
         "algorithm": "bezier-catmull-rom",
@@ -3123,14 +3571,14 @@
       }
     },
     {
-      "name": "Onboard computer <--> Body & Comfort Systems ECU",
+      "name": "Central Gateway ECU <--> Body & Comfort Systems ECU",
       "id": "14edcabc-9216-4e29-bf52-46c97245f24c",
       "bidirectional": true,
       "source": "0a82d007-b421-4646-9ea7-6814e4e50d25",
-      "destination": "98d9b6ac-5c73-47bd-a7cd-65a39cf3a545",
+      "destination": "6cfaa1d5-727c-48df-b2fe-cd6dbee421aa",
       "metaData": {
         "color": "#6F767ECC",
-        "label": "Onboard computer <--> Body & Comfort Systems ECU",
+        "label": "Central Gateway ECU <--> Body & Comfort Systems ECU",
         "points": [],
         "fontSize": 12,
         "algorithm": "bezier-catmull-rom",
@@ -3158,14 +3606,14 @@
       }
     },
     {
-      "name": "Onboard computer <--> Advanced driver assistance ECU",
+      "name": "Central Gateway ECU <--> Advanced driver assistance ECU",
       "id": "d8563258-d8b4-493f-8bef-681efc37329b",
       "bidirectional": true,
       "source": "74c824f3-d376-4c2e-b09e-36a8631856b1",
-      "destination": "98d9b6ac-5c73-47bd-a7cd-65a39cf3a545",
+      "destination": "6cfaa1d5-727c-48df-b2fe-cd6dbee421aa",
       "metaData": {
         "color": "#6F767ECC",
-        "label": "Onboard computer <--> Advanced driver assistance ECU",
+        "label": "Central Gateway ECU <--> Advanced driver assistance ECU",
         "points": [],
         "fontSize": 12,
         "algorithm": "bezier-catmull-rom",
@@ -3296,6 +3744,251 @@
         "type": "arrowclosed",
         "color": "#6F767E"
       }
+    },
+    {
+      "name": "Onboard computer <--> Central Gateway ECU",
+      "id": "6ad235e3-008f-4cf9-bd17-9ff3cddebd18",
+      "bidirectional": true,
+      "source": "98d9b6ac-5c73-47bd-a7cd-65a39cf3a545",
+      "destination": "6cfaa1d5-727c-48df-b2fe-cd6dbee421aa",
+      "metaData": {
+        "color": "#6F767ECC",
+        "label": "Onboard computer <--> Central Gateway ECU",
+        "points": [],
+        "fontSize": 12,
+        "algorithm": "bezier-catmull-rom",
+        "fontColor": "#ffffff",
+        "textStyle": {
+          "isBold": false
+        },
+        "markerType": "both",
+        "selectedBy": [],
+        "hiddenLabel": true,
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+        "floatingDisable": true
+      },
+      "tags": null,
+      "assets": [],
+      "representations": null,
+      "threats": [],
+      "attributes": {},
+      "sourceHandle": "sourceRight",
+      "targetHandle": "targetLeft",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6F767E"
+      }
+    },
+    {
+      "name": "OBD-II Port <--> Central Gateway ECU",
+      "id": "0b4c9938-d3d6-491e-94ca-98daec73d074",
+      "bidirectional": true,
+      "source": "3c5b9832-1568-4fc1-a19b-012c11adeb52",
+      "destination": "6cfaa1d5-727c-48df-b2fe-cd6dbee421aa",
+      "metaData": {
+        "color": "#6F767ECC",
+        "label": "OBD-II Port <--> Central Gateway ECU",
+        "points": [],
+        "fontSize": 12,
+        "algorithm": "bezier-catmull-rom",
+        "fontColor": "#ffffff",
+        "textStyle": {
+          "isBold": false
+        },
+        "markerType": "both",
+        "selectedBy": [],
+        "hiddenLabel": true,
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+        "floatingDisable": true
+      },
+      "tags": null,
+      "assets": [],
+      "representations": null,
+      "threats": [],
+      "attributes": {},
+      "sourceHandle": "sourceTop",
+      "targetHandle": "targetBottom",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6F767E"
+      }
+    },
+    {
+      "name": "Diagnostic Tool <--> OBD-II Port",
+      "id": "73ad35c8-7c69-4549-a952-1a8abdf60be4",
+      "bidirectional": true,
+      "source": "ce19f790-445a-4751-8dbf-b5492a015629",
+      "destination": "3c5b9832-1568-4fc1-a19b-012c11adeb52",
+      "metaData": {
+        "color": "#6F767ECC",
+        "label": "Diagnostic Tool <--> OBD-II Port",
+        "points": [],
+        "fontSize": 12,
+        "algorithm": "bezier-catmull-rom",
+        "fontColor": "#ffffff",
+        "textStyle": {
+          "isBold": false
+        },
+        "markerType": "both",
+        "selectedBy": [],
+        "hiddenLabel": true,
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+        "floatingDisable": true
+      },
+      "tags": null,
+      "assets": [],
+      "representations": null,
+      "threats": [],
+      "attributes": {},
+      "sourceHandle": "sourceTop",
+      "targetHandle": "targetBottom",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6F767E"
+      }
+    },
+    {
+      "name": "Infotainment OS <--> HSM",
+      "id": "ff96ae68-58c6-4aa6-b621-5eea346c45c6",
+      "bidirectional": true,
+      "source": "09759628-f490-49ab-9f35-06ff3f4b900b",
+      "destination": "6e69f184-8214-4cf7-9702-1df868ea0cb9",
+      "metaData": {
+        "color": "#6F767ECC",
+        "label": "Infotainment OS <--> HSM",
+        "points": [],
+        "fontSize": 12,
+        "algorithm": "bezier-catmull-rom",
+        "fontColor": "#ffffff",
+        "textStyle": {
+          "isBold": false
+        },
+        "markerType": "both",
+        "selectedBy": [],
+        "hiddenLabel": true,
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+        "floatingDisable": true
+      },
+      "tags": null,
+      "assets": [],
+      "representations": null,
+      "threats": [],
+      "attributes": {},
+      "sourceHandle": "sourceBottom",
+      "targetHandle": "targetTop",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6F767E"
+      }
+    },
+    {
+      "name": "Onboard computer <--> HSM",
+      "id": "17c5f32e-a39a-4300-a58d-e69528f35fe1",
+      "bidirectional": true,
+      "source": "98d9b6ac-5c73-47bd-a7cd-65a39cf3a545",
+      "destination": "6e69f184-8214-4cf7-9702-1df868ea0cb9",
+      "metaData": {
+        "color": "#6F767ECC",
+        "label": "Onboard computer <--> HSM",
+        "points": [],
+        "fontSize": 12,
+        "algorithm": "bezier-catmull-rom",
+        "fontColor": "#ffffff",
+        "textStyle": {
+          "isBold": false
+        },
+        "markerType": "both",
+        "selectedBy": [],
+        "hiddenLabel": true,
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+        "floatingDisable": true
+      },
+      "tags": null,
+      "assets": [],
+      "representations": null,
+      "threats": [],
+      "attributes": {},
+      "sourceHandle": "sourceRight",
+      "targetHandle": "targetRight",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6F767E"
+      }
+    },
+    {
+      "name": "Key Fob <--> Keyless Entry Receiver",
+      "id": "f263ced6-20a4-4a9e-a358-c511d2801371",
+      "bidirectional": true,
+      "source": "f62fb8d5-606b-44f3-91c9-a55bbf1bde7a",
+      "destination": "fab83d6d-904a-413d-8750-a56762179100",
+      "metaData": {
+        "color": "#6F767ECC",
+        "label": "Key Fob <--> Keyless Entry Receiver",
+        "points": [],
+        "fontSize": 12,
+        "algorithm": "bezier-catmull-rom",
+        "fontColor": "#ffffff",
+        "textStyle": {
+          "isBold": false
+        },
+        "markerType": "both",
+        "selectedBy": [],
+        "hiddenLabel": true,
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+        "floatingDisable": true
+      },
+      "tags": null,
+      "assets": [],
+      "representations": null,
+      "threats": [],
+      "attributes": {},
+      "sourceHandle": "sourceLeft",
+      "targetHandle": "targetRight",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6F767E"
+      }
+    },
+    {
+      "name": "Keyless Entry Receiver <--> Body & Comfort Systems ECU",
+      "id": "24b9c818-0f8c-4041-8fbf-b5afb2dac90c",
+      "bidirectional": true,
+      "source": "fab83d6d-904a-413d-8750-a56762179100",
+      "destination": "0a82d007-b421-4646-9ea7-6814e4e50d25",
+      "metaData": {
+        "color": "#6F767ECC",
+        "label": "Keyless Entry Receiver <--> Body & Comfort Systems ECU",
+        "points": [],
+        "fontSize": 12,
+        "algorithm": "bezier-catmull-rom",
+        "fontColor": "#ffffff",
+        "textStyle": {
+          "isBold": false
+        },
+        "markerType": "both",
+        "selectedBy": [],
+        "hiddenLabel": true,
+        "representation": "3ffb4446-b384-4270-9c2b-0c6aa7957a21",
+        "floatingDisable": true
+      },
+      "tags": null,
+      "assets": [],
+      "representations": null,
+      "threats": [],
+      "attributes": {},
+      "sourceHandle": "sourceRight",
+      "targetHandle": "targetRight",
+      "type": "smoothstep",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6F767E"
+      }
     }
   ],
   "trustZones": [],
@@ -3335,7 +4028,7 @@
       "source": "Devici Custom Methodology<&#>Mobile"
     },
     {
-      "name": " Insecure Communication with Third-Party Services",
+      "name": "Insecure Communication with Third-Party Services",
       "id": "17891097-c81c-4cee-8a45-32e3b591d1d8",
       "description": "Mobile apps often interact with third-party APIs or services, which may be insecure or malicious.",
       "categories": [],
@@ -3933,6 +4626,40 @@
       "name": "ADAS Sensor Manipulation / Assistance System Degradation",
       "id": "0aef4bcd-9903-4981-b6e5-b6e0a4010da4",
       "description": "An attacker who compromises vehicle networks or ADAS sensor inputs (camera, radar, ultrasonic, or LiDAR) can disrupt or falsify data fed into the Advanced Driver Assistance ECU. By injecting spoofed CAN messages, jamming or blinding sensors, or suppressing perception data, the attacker can cause lane-keeping systems to drift, adaptive cruise control to misjudge distance, or parking assistance to fail. Since ADAS depends on real-time, accurate sensor fusion, these manipulations can disable lane guidance, create unsafe following behavior, or cause the ECU to ignore obstacles. In extreme cases, the system may apply incorrect steering, braking, or acceleration, putting occupants and bystanders at risk.",
+      "categories": [],
+      "cwes": [],
+      "risk": {
+        "likelihood": -1,
+        "impact": -1
+      },
+      "attributes": null,
+      "tags": [],
+      "isCustom": true,
+      "priority": "high",
+      "refId": null,
+      "source": null
+    },
+    {
+      "name": "Keyless entry relay and replay attacks",
+      "id": "78da2312-ac0d-4a34-9af2-b883200ec7a1",
+      "description": "Attackers relay the radio exchange between a key fob and the keyless entry receiver, for example by amplifying the signal of a fob left inside a house, or replay recorded exchanges. The vehicle believes the key is nearby and unlocks or enables start. This is a widely reported route to vehicle theft and can also give physical access to the OBD-II port.",
+      "categories": [],
+      "cwes": [],
+      "risk": {
+        "likelihood": -1,
+        "impact": -1
+      },
+      "attributes": null,
+      "tags": [],
+      "isCustom": true,
+      "priority": "high",
+      "refId": null,
+      "source": null
+    },
+    {
+      "name": "HSM compromise or misuse of key operations",
+      "id": "ad5d6487-6391-4c55-a0bb-0038cd2c798a",
+      "description": "Compromised host software uses the HSM as a signing oracle, or an attacker extracts keys through fault injection or a left-open debug interface. Secure boot, OTA verification and message authentication all depend on the HSM, so its compromise undermines each of them at once.",
       "categories": [],
       "cwes": [],
       "risk": {
@@ -5135,6 +5862,331 @@
       "name": "Fail-Safe ADAS Modes With Redundant Perception Paths",
       "id": "6a505037-2008-4758-a627-26f569f477dc",
       "description": "Provide redundant sensing (camera + radar + ultrasonic), enforce safe fallback behavior when perception degrades (e.g., disengage ACC, limit steering assistance), and isolate ADAS ECUs from untrusted network domains, ensuring assistance systems fail safely instead of applying unsafe control actions.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Distance-Bounded Passive Entry With Ranging or Motion-Gated Fobs",
+      "id": "96f8f8e1-a636-4dec-a38a-2ad835671e37",
+      "description": "Require the keyless entry receiver to verify the fob's physical distance with time-of-flight or ultra-wideband ranging before unlocking or enabling start, and put fobs to sleep after a period without motion so a relayed signal gets no response.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Challenge-Response and Rolling Codes Between Fob and Keyless Entry Receiver",
+      "id": "f0e84b3b-d2e8-404b-921a-19508d42809c",
+      "description": "Use per-session cryptographic challenge-response with counters or nonces between the fob and the keyless entry receiver, with keys held in secure storage on both sides, so recorded or replayed exchanges are rejected.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Cryptographic Immobilizer Check Between Body ECU and Engine ECU",
+      "id": "8f55ca84-9570-4e1f-a21f-d806a4064adc",
+      "description": "Require the Engine & Powertrain ECU to verify a cryptographic start authorization from the Body & Comfort Systems ECU, bound to the paired fob, so a successful unlock alone cannot start the vehicle.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Alert on Repeated Failed or Out-of-Range Keyless Authentication Attempts",
+      "id": "7c8f4bb9-480a-4c2a-b946-26c6ad84752e",
+      "description": "Log failed and out-of-range keyless authentication attempts at the keyless entry receiver and report bursts to the Vehicle Manufacturer backend or the owner app so a relay attempt is flagged.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Authenticated, Rate-Limited HSM Key Operations Bound to Approved Callers",
+      "id": "9388396b-2e3c-4492-80ae-7f25cf0f9f94",
+      "description": "Let only authorized services (secure boot, OTA verifier, gateway message authentication) call the HSM, each limited to its own key slots and operations, with rate limits and policy checks so compromised host software cannot use the HSM as a signing oracle.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "HSM Fault-Injection Resistance and Disabled Debug Interfaces in Production",
+      "id": "b5b8852d-2088-4d56-adfe-9e3f58e4cb54",
+      "description": "Use an HSM with tamper and glitch detection, disable debug and test interfaces after manufacturing, and lock key-slot export so keys cannot be read out through physical or fault attacks.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "HSM Key-Usage Audit Log Reported to the Vehicle Manufacturer Backend",
+      "id": "d541fa17-8367-4099-aaa2-8f4d2f95f926",
+      "description": "Record each HSM signing and key-use event with counters and report anomalies, such as unusual volume or operations outside update windows, to the Vehicle Manufacturer backend for review.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Automatic Rollback to Last-Known-Good Firmware With Staged Fleet Rollout",
+      "id": "08166ddb-7bec-4d68-a3f9-779266a041e2",
+      "description": "Keep a verified previous image on each updatable ECU and the gateway, roll back automatically if a new image fails verification or health checks, and release updates to the fleet in stages so a bad package is stopped early.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "CAN Intrusion Detection on the Central Gateway With Alerts to the Manufacturer Backend",
+      "id": "df974e30-7566-4188-8ffe-4e84fc12764f",
+      "description": "Run rule-based and anomaly detection on the Central Gateway ECU for unexpected message IDs, rates and signal values, drop violating frames, and report incidents to the Vehicle Manufacturer backend.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Secure Boot Failure and Integrity Reporting to the Manufacturer Backend",
+      "id": "f8245993-20f7-4586-98cf-f435053a3258",
+      "description": "Measure firmware at boot, enter a safe state when verification fails, and report the failure and measured hash to the Vehicle Manufacturer backend so tampered vehicles are identified.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Factory Reset and Recovery Partition for the Infotainment OS",
+      "id": "69082e11-ee10-4707-99ab-eae5981e72fc",
+      "description": "Keep a signed recovery image that restores the Infotainment OS to a known-good state without wiping vehicle safety configuration, so malware or ransomware can be cleared by the owner or a dealer.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Detect Duplicate or Out-of-Context ECU Identifiers at the Central Gateway With Alerting",
+      "id": "fb2065c5-cec6-4776-a7cd-e42a10031a5b",
+      "description": "Monitor at the Central Gateway ECU for two sources claiming the same ECU identifier, or for messages that do not fit the sending ECU's role, and alert the Vehicle Manufacturer backend.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Alert on Anomalous Sign-In Patterns and Lock Affected Owner Accounts",
+      "id": "8e68684f-8720-4045-9355-05181d9b7bea",
+      "description": "Detect credential stuffing, impossible-travel and unusual remote-command sign-ins on owner accounts, alert the owner, and lock the account until identity is re-verified.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Fleet Firmware Inventory With Targeted Recall or Forced Update for End-of-Support Units",
+      "id": "eb218562-ac61-4c4e-99df-7c3515b1b5a2",
+      "description": "Track the firmware version of every vehicle and ECU, and push forced updates or recalls to units running unsupported or known-vulnerable firmware.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Rotate Tokens and Keys Stored on the Infotainment Head Unit After Suspected Compromise",
+      "id": "f27c0412-6a25-48fb-b96b-0bafe4d7a0f4",
+      "description": "Revoke and reissue the tokens, certificates and keys held on the head unit's file system when compromise is suspected, so exposed secrets stop working.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Disable Default Credentials and Debug Ports (ADB, UART, JTAG) on the Infotainment OS",
+      "id": "3eab8033-ede8-42f4-9f8c-b299e7130360",
+      "description": "Remove factory default passwords and close or authenticate debug interfaces (ADB, UART, JTAG) on the Infotainment OS before vehicles ship, and verify the result in release testing.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Minimal Infotainment OS Image With Only Required Services Enabled",
+      "id": "5e1c9db2-2b4f-4f8d-8e6d-84d75bfd93b5",
+      "description": "Build the Infotainment OS image with only the services, ports and packages the head unit needs, so unused network listeners and tools are not present to be misconfigured.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Keep API Keys and Certificates Out of Binaries by Storing Them in the HSM",
+      "id": "fc863460-bd58-40c3-b2c2-09f7300b185f",
+      "description": "Store backend API keys, client certificates and signing keys in the HSM instead of app binaries or filesystem, so reverse engineering a binary does not reveal reusable secrets.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Per-Vehicle Authorization on Telemetry and Location APIs",
+      "id": "e279daa1-f09c-472b-ac8a-fb817d289478",
+      "description": "Check on every telemetry and location API request that the caller is authorized for that specific vehicle, so one owner cannot read another owner's data.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Certificate Pinning and Mutual TLS for Navigation, Media and Weather Service Connections",
+      "id": "046bce35-aa0a-48ff-bc45-73401d08e94f",
+      "description": "Pin server certificates and use mutual TLS for the head unit's connections to third-party navigation, media and weather services so intercepted traffic cannot be read or altered.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Application Allow-Listing and Code Signing Enforcement on the Infotainment OS",
+      "id": "db54a756-b157-47b2-bdec-b2c45af222c6",
+      "description": "Allow only signed applications from approved sources to install and run on the Infotainment OS, and block unsigned executables, including those arriving over USB.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Authenticated, Permission-Scoped IPC Between Infotainment Services and the Gateway Service",
+      "id": "bc596522-b64f-48ef-8478-91ab8ecacfcb",
+      "description": "Require each infotainment app to hold an explicit permission and authenticate before it can call the gateway service over IPC, and restrict the calls it exposes to the minimum.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Constant-Time Cryptography and EM/Power Shielding for the HSM and Key-Handling ECUs",
+      "id": "acaf888c-b7f0-4b34-b518-b6089cf4b3c1",
+      "description": "Use constant-time cryptographic routines and hardware with power and electromagnetic leakage countermeasures in the HSM and ECUs that handle keys, so side-channel measurements do not reveal key material.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Authorize Each Remote Command Against Owner, Vehicle and Command Type at the Manufacturer Backend",
+      "id": "01470c67-18bb-4f65-a829-b7aa3745b545",
+      "description": "At the Vehicle Manufacturer backend, authorize every remote command against the requesting owner, the target vehicle and the command type before it is forwarded to the vehicle.",
+      "riskReduction": -1,
+      "attributes": null,
+      "isCustom": true,
+      "question": null,
+      "ref_id": null,
+      "consideration": "",
+      "explanation": "",
+      "example": ""
+    },
+    {
+      "name": "Minimize and Expire Stored GPS and Trip History With Owner-Controlled Deletion",
+      "id": "67ddaef8-0e64-42e4-ad6e-46aba340173b",
+      "description": "Keep only the location and trip data features need, expire it on a fixed schedule, and let owners delete it, so a breach or misuse exposes less.",
       "riskReduction": -1,
       "attributes": null,
       "isCustom": true,

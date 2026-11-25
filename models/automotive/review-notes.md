@@ -1,49 +1,45 @@
 # Automotive: Review Notes
 
-An honest review of this reference model: what it covers well and where it falls short. Use it as a checklist when adapting the model to your own system. Back to the [model overview](README.md).
+An honest review of this reference model: what version 2 fixed, where it still falls short, and how it scores against the scorecard in the guide *How to Review an Automotive Threat Model*. Use it as a checklist when adapting the model to your own system. Back to the [model overview](README.md).
 
-For modeling real-world attacks (like car theft or safety compromises), we must account for these elements as well that are missing from the model
+## Gaps from version 1, now drawn
 
-1. The OBD-II Port (On-Board Diagnostics)
+Version 1's review named four hardware realities the architecture left out. Version 2 draws each one and attaches threats to it.
 
-- What it is: A physical port usually located under the steering wheel. It is legally mandated in most vehicles for emissions testing and repair.
+1. **The OBD-II port.** Now an OBD-II Port and a Diagnostic Tool or Aftermarket Dongle, connected to the Central Gateway ECU. The diagnostic interface, CAN injection, and firmware reflashing threats now attach to the port. A laptop plugged into the car is a path the model can show. See [attack path 3](attack-paths.md).
+2. **The secure gateway.** Now a Central Gateway ECU between the onboard computer and the CAN bus. All five ECU data flows run through it, so segmentation can be analyzed. Gateway compromise, lateral movement, and bus flooding attach to it.
+3. **The hardware security module.** Now an HSM in the computing system, connected to the Infotainment OS and the onboard computer. Key leakage, OTA hijacking, insecure bootloaders, and side-channel threats attach to it, and a new threat covers compromise or misuse of the HSM itself.
+4. **The keyless entry receiver.** Now a Keyless Entry Receiver and a Key Fob feeding the Body & Comfort Systems ECU, with a new threat for relay and replay attacks. See [attack path 4](attack-paths.md).
 
-- Why it is Critical: It provides direct, wired access to the CAN Bus.
+## Still missing
 
-- The Threat: This is the #1 vector for "local" attacks. Thieves use this port to program new keys (key cloning), and insurance dongles plugged in here can be hacked remotely to inject messages onto the bus. In your model, a hacker has to go through the Wi-Fi or Infotainment. In reality, they can just plug a laptop into the car.
-
-- Where it goes in the model: Connected directly to the CAN Bus (or the Gateway).
-
-2. The Secure Gateway (Central Gateway ECU)
-
-- What it is: The model shows a generic "Onboard Computer" connecting the Infotainment to the CAN Bus. In a real architecture, this is a dedicated firewall component called the Secure Gateway.
-
-- Why it is Critical: It physically separates the network domains. Real cars do not have just one CAN Bus; they have several (e.g., High-Speed CAN for brakes, Low-Speed CAN for door locks).
-
-- The Threat: Without a Gateway explicitly modeled, you cannot analyze "segmentation" effectively. The Gateway is the only thing stopping a compromised Bluetooth controller from sending a "Deploy Airbag" signal.
-
-- Where it goes in the model: Between the Infotainment System and the CAN Bus.
-
-3. The Hardware Security Module (HSM) / TPM
-
-- What it is: A specialized crypto-chip (like the Secure Enclave in an iPhone) used to store private keys and verify digital signatures.
-
-- Why it is Critical: The model shows "Vehicle Manufacturer" sending updates. How does the car know the update is genuine?
-
-- The Threat: If you don't model the HSM, you miss the risk of Firmware Modification. If an attacker spoofs the manufacturer's server, the car needs an immutable hardware root of trust to reject the fake update.
-
-- Where it goes in the model: Inside the Computing System or embedded within critical ECUs (like the Engine ECU).
-
-4. Keyless Entry Receiver (RKE / PKE)
-
-- What it is: The radio receiver that listens for your physical key fob (Remote Keyless Entry). Your model includes "Mobile Phone," but most cars still rely on RF fobs.
-
-- Why it is Critical: This is a distinct radio frequency (315/433 MHz) separate from Bluetooth or Wi-Fi.
-
-- The Threat: Relay Attacks. This is the most common way modern cars are stolen. Thieves amplify the signal from the key fob inside your house to trick the car into thinking the key is nearby. This vector is completely invisible in the current model.
-
-- Where it goes in the model: An input feeding into the Body & Comfort Systems ECU.
+- **Cellular telematics unit, V2X communication, and EV charging.** None is drawn. A model for a specific vehicle needs them.
+- **Security modules embedded in individual ECUs.** The HSM is modeled once, in the computing system.
+- **TARA values and ASIL ratings.** Priority is expert judgment, and no ISO 26262 safety levels are assigned. See the [standards mapping](standards-mapping.md).
 
 ## Mitigations
 
-Many mitigations are too generic for Automotive threat modeling, but they have good coverage.
+Version 2 replaced the filler, mismatched, and duplicate mitigations from version 1 with ones that name a component and a mechanism. Examples: *Harden Assets Against Attacks* and *Implement Timely Patching* on security misconfiguration, *Audit Logging Configuration* on side-channel leakage, *Develop a comprehensive threat model* on two threats, and the duplicate *Implement access control mechanisms*. It also added detective and corrective controls, so every Critical threat now has at least one.
+
+Some mitigations imported from the Devici library are still generic, for example *Validate User Input*, *Implement Parameterization*, *Map all authentication flows*, *Classify data sensitivity*, and *Use Trusted Frameworks*. They give good coverage, and a team adapting the model should rewrite them to name its own component and mechanism.
+
+## Scorecard
+
+Scored with the guide's rubric: a criterion rates Strong when every item is true, Adequate when one is false, and Weak when two or more are false.
+
+| Criterion | Item | Result | Note |
+|---|---|---|---|
+| Accuracy | Every threat names an affected component that exists in the architecture | True | Gateway and diagnostic threats now attach to drawn components |
+| Accuracy | Priorities agree with the attacker's goal, and the model says how it set them | True | The README states that priority is expert judgment |
+| Accuracy | Each threat sits under a framework that fits it | True | GPS and personal data leakage sits under LINDDUN |
+| Accuracy | Threats connect into attack paths from each entry point | True | Six paths in [attack-paths.md](attack-paths.md) |
+| Completeness | Physical access points appear in the diagram | True | USB, OBD-II port, keyless entry receiver |
+| Completeness | The secure gateway is drawn as its own component | True | Central Gateway ECU, between the computing and CAN boundaries |
+| Completeness | A hardware security module appears wherever updates and keys are discussed | True | One HSM in the computing system; ECU-embedded modules are not drawn |
+| Completeness | At least one threat tests each stated assumption | True | Gateway compromise tests the first, hijacked OTA the second |
+| Completeness | The model maps to the standards your auditors use | False | Indicative mapping only, no TARA values or ASIL ratings |
+| Specificity | Each mitigation names its component and its mechanism | False | Library mitigations listed above remain generic |
+| Specificity | The mix of control types matches the exposure | True | Every Critical threat has a detective or corrective control, though 74 of 90 mitigations are preventive |
+| Specificity | No mitigation is filler, and no two say the same thing | True | The LINDDUN entries on Data Disclosure overlap in places |
+
+**Result: Accuracy Strong, Completeness Adequate, Specificity Adequate.**

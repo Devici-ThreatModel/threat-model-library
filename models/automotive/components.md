@@ -26,12 +26,14 @@ Each element of the reference architecture, with its role and the attributes tha
 | Computing System | Trust Boundary: The central architectural block bridging user inputs (Infotainment) with vehicle functions (CAN Bus). |  |
 | Onboard Computer | The main CPU/GPU processing unit that executes vehicle logic and routes data. |  |
 | Infotainment OS | The operating system (e.g., Android Automotive, QNX) running on the computing hardware. | Android |
+| Hardware Security Module (HSM) | Tamper-resistant crypto chip that stores private keys and verifies signatures for secure boot, OTA update verification and message authentication. |  |
 
 ## CAN Bus & Vehicle Control (ECUs)
 
 | Component | Description | Linked attributes |
 |---|---|---|
 | CAN Bus | Trust Boundary: The internal network allowing ECUs to communicate without a central host computer. |  |
+| Central Gateway ECU | Dedicated gateway between the computing system and the CAN network. Separates network domains, filters and authenticates cross-domain messages, and enforces diagnostic access policy. All ECU traffic to the onboard computer passes through it. |  |
 | Engine & Powertrain ECU | Computer controlling engine performance, fuel injection, and power delivery. |  |
 | Engine & Powertrain | The physical mechanical assembly (motor, drivetrain) managed by the ECU. |  |
 | Transmission ECU | Computer controlling gear shifting and transmission behavior. |  |
@@ -40,6 +42,7 @@ Each element of the reference architecture, with its role and the attributes tha
 | ABS, Traction Control, Airbags | Physical safety mechanisms actuated by the Braking & Safety ECU. |  |
 | Body & Comfort Systems ECU | Computer managing non-critical body functions like windows and seats. |  |
 | Windows, Mirrors, Seats, Lighting & HVAC | Physical components controlling passenger comfort and visibility. |  |
+| Keyless Entry Receiver | Radio receiver (RKE/PKE) that listens for the key fob on its own frequency and passes lock, unlock and start requests to the Body & Comfort Systems ECU. |  |
 | Advanced Driver Assistance ECU | Computer processing data for semi-autonomous features (ADAS). |  |
 | Lane Keeping, Cruise Control, Parking Sensors | Sensors and actuators enabling driver assistance features. |  |
 
@@ -55,3 +58,11 @@ Each element of the reference architecture, with its role and the attributes tha
 | Internet Data Sources | Third-party external servers providing traffic data, media, or weather. |  |
 | Human | The driver or passenger initiating inputs and consuming system outputs. |  |
 | Mobile Phone or Tablet | Personal external devices connected to the vehicle via Bluetooth or USB. |  |
+
+## Physical Access & Diagnostics
+
+| Component | Description | Linked attributes |
+|---|---|---|
+| OBD-II Port | Physical diagnostic port, usually under the steering wheel, giving wired access to the vehicle network through the central gateway. |  |
+| Diagnostic Tool or Aftermarket Dongle | Workshop scan tool, key programmer, or insurance/telematics dongle plugged into the OBD-II port. |  |
+| Key Fob | The owner's radio key fob, separate from Bluetooth and Wi-Fi. |  |

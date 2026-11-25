@@ -25,7 +25,7 @@ Each reference model has full written documentation (components, threats, mitiga
 | [**Mobile App**](models/mobile-app) | App sandbox on the mobile OS: UI, app logic, local storage, backend and cloud communication | 15 | 58 | 122 |
 | [**LLM and Agentic Systems**](models/llm-agentic-ai) | Users, agents, models, and external data across trust boundaries; prompt injection, excessive agency | 19 | 148 | 494 |
 | [**IoT Device**](models/iot) | Smart air-quality system: sensors, on-device aggregation, cloud analytics, HVAC control, integration APIs | 18 | 113 | 279 |
-| [**Automotive**](models/automotive) | Connected vehicle: infotainment, ECUs, CAN bus, ADAS, wireless interfaces | 35 | 38 | 92 |
+| [**Automotive**](models/automotive) | Connected vehicle: infotainment, ECUs, CAN bus, ADAS, wireless interfaces | 41 | 40 | 117 |
 | [**Medical Device**](models/medical-device) | Connected therapy device, patient phone app, gateway, clinician and patient data stores | 17 | 64 | 116 |
 
 ## Best-practice guides
