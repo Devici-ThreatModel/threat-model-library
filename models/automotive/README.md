@@ -12,6 +12,7 @@ This model maps how a connected vehicle’s infotainment, ECUs, and networks exc
 - [`automotive-reference.xlsx`](automotive-reference.xlsx): Excel workbook download with the full model on separate tabs (overview, components, threats, mitigations with guidance, review notes)
 - [Attack paths](attack-paths.md): eight entry-point-to-impact paths read across the threats
 - [Standards mapping](standards-mapping.md): indicative mapping to ISO/SAE 21434 impact categories, UN R155 and UN R156
+- [`How-to-Review-an-Automotive-Threat-Model_Guide.pdf`](How-to-Review-an-Automotive-Threat-Model_Guide.pdf): the Security Compass guide that scores this model and gives reviewers a scorecard for any vehicle threat model
 - [Review notes](review-notes.md): what the model covers, where it falls short, and how it scores against the scorecard
 
 ## At a glance
