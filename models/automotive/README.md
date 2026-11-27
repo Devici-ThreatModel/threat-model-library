@@ -10,7 +10,7 @@ This model maps how a connected vehicle’s infotainment, ECUs, and networks exc
 - [Components and data flow](components.md): every element, its role, and its attributes
 - [Threats](threats.md): curated threats by theme, with likelihood, severity, priority, and recommended mitigations
 - [`automotive-reference.xlsx`](automotive-reference.xlsx): Excel workbook download with the full model on separate tabs (overview, components, threats, mitigations with guidance, review notes)
-- [Attack paths](attack-paths.md): six entry-point-to-impact paths read across the threats
+- [Attack paths](attack-paths.md): eight entry-point-to-impact paths read across the threats
 - [Standards mapping](standards-mapping.md): indicative mapping to ISO/SAE 21434 impact categories, UN R155 and UN R156
 - [Review notes](review-notes.md): what the model covers, where it falls short, and how it scores against the scorecard
 

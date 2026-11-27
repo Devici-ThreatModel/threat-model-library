@@ -63,3 +63,23 @@ Impact: a malicious update to many vehicles at once. Signed OTA packages and the
 | 3 | Broken access control | High | Infotainment OS |
 
 Impact: unauthorized remote commands and exposure of another owner's location data.
+
+## 7. Phone integration to the safety network
+
+| Step | Threat | Priority | Component |
+|---|---|---|---|
+| 1 | Compromised mobile app integrations (Android Auto / CarPlay) | High | Infotainment OS |
+| 2 | Exploiting unpatched software vulnerabilities | High | Infotainment OS |
+| 3 | Lateral movement to CAN or vehicle control networks | Critical | Infotainment OS, Central Gateway ECU |
+| 4 | Gateway or bridge compromise | Critical | Central Gateway ECU |
+
+Impact: same as paths 1 and 2. A compromised phone reaches the head unit over USB or Bluetooth, so this path shares its later steps with those two. It is listed separately because the first step is the phone and its apps, not the radio or the port.
+
+## 8. Voice assistant to unwanted commands
+
+| Step | Threat | Priority | Component |
+|---|---|---|---|
+| 1 | Voice-assistant command injection | Medium | Infotainment OS |
+| 2 | Lateral movement to CAN or vehicle control networks, only if the head unit is also compromised | Critical | Infotainment OS, Central Gateway ECU |
+
+Impact: unwanted commands issued through the assistant, such as opening a garage door. Reaching vehicle control needs a second weakness in the head unit, and the gateway filtering is the control that limits it. User-verified actions are the main control on step 1.

@@ -32,7 +32,7 @@ Scored with the guide's rubric: a criterion rates Strong when every item is true
 | Accuracy | Every threat names an affected component that exists in the architecture | True | Gateway and diagnostic threats now attach to drawn components |
 | Accuracy | Priorities agree with the attacker's goal, and the model says how it set them | True | The README states that priority is expert judgment |
 | Accuracy | Each threat sits under a framework that fits it | True | GPS and personal data leakage sits under LINDDUN |
-| Accuracy | Threats connect into attack paths from each entry point | True | Six paths in [attack-paths.md](attack-paths.md) |
+| Accuracy | Threats connect into attack paths from each entry point | True | Eight paths in [attack-paths.md](attack-paths.md), including the phone integration and the voice assistant |
 | Completeness | Physical access points appear in the diagram | True | USB, OBD-II port, keyless entry receiver |
 | Completeness | The secure gateway is drawn as its own component | True | Central Gateway ECU, between the computing and CAN boundaries |
 | Completeness | A hardware security module appears wherever updates and keys are discussed | True | One HSM in the computing system; ECU-embedded modules are not drawn |
